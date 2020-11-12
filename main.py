@@ -6,6 +6,8 @@ import rdflib
 import pprint
 import nltk
 from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize as tokenize
+
 
 def dataset():
     data = pd.read_csv("PT Attribute Dataset.csv", delimiter=';', header=0)
@@ -23,16 +25,23 @@ def dataset():
     print(s)
 
 
-def input_file(filename):
+def input_processing(filename):
     f = open(filename, 'r')
     lines = f.readlines()
+
+    stop_words = set(stopwords.words('portuguese'))
+
     for line in lines:
         print(line)
+        tokens = tokenize(line)
+
+    # remover pontuacao, simbolos, etc
+    # atencao a acentos
+    # responder a olas e cenas
+
 
 if __name__ == '__main__':
     filename = 'inputs.txt'
-    input_file(filename)
-    # remover pontuacao, simbolos, etc
-    # atencao a acentos
-    # print(stopwords.words('portuguese'))
+    input_processing(filename)
+   
     
