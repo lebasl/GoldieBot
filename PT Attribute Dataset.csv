@@ -1,501 +1,501 @@
-ID;Estilo;Preco;Classificacao;Tamanho;Estacao;Decote;Mangas;Cintura;Material;Tecido;Decoracao;Padrao;Recomendacoes
-0;Sensual;Baixo;4,6;M;Verao;O;Nenhuma;Imperio;Sem informacao;Seda;Folhos;Animal;1
-1;Casual;Baixo;0;L;Verao;O;Petala;Natural;Microfibra;Sem informacao;Folhos;Animal;0
-2;Vintage;Alto;0;L;Outono;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Impressao;0
-3;Intimo;Medio;4,6;L;Primavera;O;Comprida;Natural;Seda;Seda;Bordado;Impressao;1
-4;Fofo;Baixo;4,5;M;Verao;O;Borboleta;Natural;Sintetico;Seda;Laco;Pontos;0
-5;Boemio;Baixo;0;M;Verao;V;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Impressao;0
-6;Casual;Medio;0;XL;Verao;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;0
-7;Novo;Medio;0;Tamanho unico;Outono;O;Curta;Natural;Poliester;Pano grosso;Renda;Sem informacao;0
-8;Requintado;Medio;0;Tamanho unico;Primavera;V;Curta;Imperio;Algodao;Pano grosso;Perolas;Solido;1
-9;Boemio;Baixo;0;Tamanho unico;Verao;V;Nenhuma;Natural;Nylon;Seda;Sem informacao;Sem informacao;1
-10;Festa;Medio;5;Tamanho unico;Verao;O;Comprida;Natural;Poliester;Pano grosso;Renda;Solido;0
-11;Requintado;Medio;0;Tamanho unico;Primavera;V;Curta;Sem informacao;Nylon;Sem informacao;Sem informacao;Animal;0
-12;Sensual;Baixo;4,7;M;Inverno;O;Tres Quartos;Sem informacao;Sem informacao;Seda;Renda;Impressao;1
-13;Vintage;Medio;4,8;M;Verao;O;Curta;Imperio;Algodao;Malha;Sem informacao;Animal;1
-14;Casual;Baixo;5;M;Verao;U;Curta;Sem informacao;Algodao;Sem informacao;Faixa;Solido;0
-15;Casual;Baixo;0;Tamanho unico;Inverno;U;Comprida;Sem informacao;Outros;Outros;Renda;Sem informacao;0
-16;Fofo;Medio;4,7;L;Primavera;O;Curta;Sem informacao;Algodao;Sem informacao;Faixa;Solido;1
-17;Boemio;Medio-Alto;5;Tamanho unico;Outono;O;Comprida;Natural;Sem informacao;Sem informacao;Buracos;Mistura;1
-18;Intimo;Medio;0;M;Inverno;Peter Pan;Tres Quartos;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-19;Sensual;Medio;5;M;Outono;O;Nenhuma;Imperio;Seda de leite;Sem informacao;Sem informacao;Sem informacao;1
-20;Sensual;Medio;4,5;L;Outono;O;Comprida;Sem informacao;Algodao;Sem informacao;Perolas;Solido;0
-21;Casual;Baixo;4,3;M;Verao;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0
-22;Intimo;Baixo;4;XL;Verao;V;Curta;Natural;Algodao;Sem informacao;Bolsos;Solido;0
-23;Sensual;Medio;4,7;S;Verao;V;Nenhuma;Imperio;Algodao;Sem informacao;Lantejoulas;Solido;1
-24;Sensual;Medio;0;Tamanho unico;Outono;V;Nenhuma;Natural;Poliester;Sem informacao;Renda;Mistura;0
-25;Sensual;Medio;0;M;Outono;O;Nenhuma;Imperio;Algodao;Pano grosso;Sem informacao;Impressao;0
-26;Sensual;Medio;4,7;M;Primavera;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;1
-27;Casual;Baixo;0;L;Verao;O;Nenhuma;Natural;Algodao;Malha;Sem informacao;Impressao;0
-28;Fofo;Baixo;4,3;Tamanho unico;Outono;O;Nenhuma;Natural;Poliester;Seda;Faixa;Riscas;0
-29;Fofo;Baixo;4,7;M;Primavera;Folhos;Curta;Imperio;Sintetico;Seda;Laco;Pontos;1
-30;Casual;Medio;4,6;L;Outono;O;Nenhuma;Imperio;Poliester;Seda;Folhos;Solido;0
-31;Casual;Baixo;0;M;Primavera;O;Nenhuma;Natural;Seda;Seda;Apliques;Solido;1
-32;Casual;Medio;4,4;L;Outono;O;Nenhuma;Natural;Linho;Seda;Folhos;Animal;0
-33;Intimo;Medio;4,3;L;Primavera;O;Nenhuma;Imperio;Sem informacao;Sem informacao;Laco;Solido;1
-34;Festa;Alto;4,7;M;Primavera;O;Tres Quartos;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Impressao;0
-35;Casual;Baixo;4,6;Tamanho unico;Inverno;U;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;1
-36;Vintage;Medio;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Sem informacao;Seda;Sem informacao;Impressao;1
-37;Intimo;Medio;0;M;Outono;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0
-38;Festa;Medio;4,6;M;Inverno;O;Nenhuma;Natural;Algodao;Sem informacao;Renda;Solido;1
-39;Casual;Medio;4,5;M;Primavera;V;Curta;Imperio;Algodao;Sem informacao;Botao;Solido;1
-40;Intimo;Medio;5;Tamanho unico;Primavera;V;Nenhuma;Natural;Algodao;Pano grosso;Renda;Solido;1
-41;Intimo;Baixo;4,4;L;Outono;O;Meia;Natural;Seda artificial;Seda;Faixa;Solido;0
-42;Casual;Medio;4,8;M;Inverno;O;Curta;Natural;Licra;Pano grosso;Apliques;Mistura;0
-43;Casual;Baixo;4,8;Tamanho unico;Primavera;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0
-44;Vintage;Medio;4,8;M;Inverno;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Mistura;1
-45;Sensual;Medio;0;M;Inverno;O;Curta;Natural;Sem informacao;Sem informacao;Renda;Solido;0
-46;Sensual;Medio;4,8;L;Primavera;V;Tres Quartos;Imperio;Poliester;Sem informacao;Renda;Geometrico;0
-47;Casual;Medio;0;M;Verao;O;Meia;Natural;Algodao;Seda;Folhos;Pontos;1
-48;Casual;Baixo;4,7;M;Verao;O;Nenhuma;Imperio;Seda de leite;Sem informacao;Sem informacao;Solido;0
-49;Casual;Medio-Alto;0;L;Inverno;U;Comprida;Imperio;Sem informacao;Sem informacao;Sem informacao;Solido;1
-50;Sensual;Baixo;5;Tamanho unico;Verao;V;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Animal;1
-51;Casual;Baixo;4,3;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Seda de leite;Sem informacao;Sem informacao;Animal;0
-52;Casual;Medio;0;L;Primavera;O;Meia;Natural;Poliester;Seda;Buracos;Solido;1
-53;Casual;Medio;4,6;Tamanho unico;Outono;O;Nenhuma;Natural;Poliester;Seda;Faixa;Solido;1
-54;Sensual;Medio;4,5;M;Primavera;O;Tres Quartos;Natural;Poliester;Sem informacao;Renda;Geometrico;0
-55;Novo;Medio;0;S;Inverno;Botoes;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-56;Casual;Medio;4,9;S;Inverno;Botoes;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-57;Sensual;Baixo;4,6;L;Outono;O;Nenhuma;Natural;Sem informacao;Sem informacao;Renda;Solido;1
-58;Boemio;Baixo;4,5;M;Verao;V;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Impressao;1
-59;Trabalho;Medio;0;M;Outono;Bateau;Nenhuma;Natural;Poliester;Sem informacao;Laco;Mistura;0
-60;Fofo;Alto;0;M;Primavera;V;Comprida;Natural;Seda artificial;Sem informacao;Sem informacao;Solido;1
-61;Casual;Medio;0;Tamanho unico;Primavera;O;Curta;Natural;Algodao;Sem informacao;Buracos;Xadrez;0
-62;Casual;Medio;5;M;Verao;O;Curta;Imperio;Poliester;Seda;Sem informacao;Animal;0
-63;Casual;Medio;4,7;M;Primavera;O;Nenhuma;Natural;Sem informacao;Seda;Faixa;Solido;0
-64;Sensual;Baixo;4;S;Outono;O;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Solido;1
-65;Casual;Medio;5;M;Outono;V;Curta;Natural;Algodao;Pano grosso;Perolas;Solido;0
-66;Casual;Baixo;0;Tamanho unico;Verao;V;Meia;Natural;Seda;Pano grosso;Apliques;Solido;0
-67;Casual;Medio-Alto;4,5;S;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Mistura;1
-68;Trabalho;Medio;4,8;L;Verao;V;Curta;Natural;Poliester;Sem informacao;Buracos;Solido;0
-69;Casual;Medio-Alto;0;M;Outono;V;Curta;Imperio;Poliester;Sem informacao;Sem informacao;Solido;0
-70;Boemio;Medio;5;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Batik;Sem informacao;Impressao;1
-71;Sensual;Baixo;0;M;Primavera;V;Curta;Natural;Poliester;Cetim;Folhos;Solido;1
-72;Sensual;Medio;4,2;M;Inverno;V;Nenhuma;Natural;Algodao;Flanela;Sem informacao;Solido;0
-73;Casual;Baixo;4,8;Tamanho unico;Primavera;O;Comprida;Natural;Algodao;La;Renda;Solido;0
-74;Casual;Baixo;4,4;S;Outono;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Solido;0
-75;Casual;Baixo;4,7;L;Primavera;O;Curta;Sem informacao;Sintetico;Seda;Laco;Pontos;0
-76;Casual;Medio;5;XL;Inverno;U;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Geometrico;1
-77;Casual;Baixo;0;Tamanho unico;Primavera;V;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Impressao;0
-78;Casual;Medio;0;Tamanho unico;Primavera;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0
-79;Boemio;Muito alto;4,7;Tamanho unico;Inverno;V;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;1
-80;Casual;Baixo;5;M;Verao;V;Nenhuma;Imperio;Poliester;Seda;Folhos;Animal;0
-81;Festa;Medio;4,7;M;Primavera;V;Nenhuma;Natural;Poliester;Seda;Buracos;Solido;0
-82;Sensual;Baixo;5;Tamanho unico;Primavera;O;Comprida;Natural;Algodao;La;Sem informacao;Riscas;0
-83;Vintage;Baixo;4,6;M;Verao;O;Curta;Natural;Sem informacao;Seda;Sem informacao;Impressao;0
-84;Casual;Medio;0;Tamanho unico;Inverno;O;Meia;Imperio;Poliester;Seda;Buracos;Solido;0
-85;Casual;Baixo;4,9;L;Verao;U;Curta;Sem informacao;Sem informacao;Seda;Sem informacao;Mistura;1
-86;Casual;Baixo;0;S;Outono;O;Comprida;Natural;Sem informacao;Sem informacao;Perolas;Solido;1
-87;Sensual;Medio;4;S;Outono;V;Nenhuma;Sem informacao;Seda artificial;Seda;Sem informacao;Mistura;1
-88;Sensual;Baixo;5;M;Outono;O;Comprida;Natural;Sem informacao;Seda;Renda;Impressao;1
-89;Intimo;Medio;4,6;M;Inverno;Peter Pan;Tres Quartos;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;0
-90;Casual;Medio;0;L;Primavera;U;Nenhuma;Natural;Algodao;Sem informacao;Apliques;Mistura;1
-91;Casual;Medio;4,8;L;Inverno;O;Curta;Natural;Algodao;Sem informacao;Bolsos;Solido;1
-92;Trabalho;Medio-Alto;0;M;Inverno;Mandarim;Meia;Natural;Algodao;Sem informacao;Faixa;Solido;0
-93;Sensual;Baixo;4,8;M;Primavera;O;Meia;Natural;Seda;Sem informacao;Sem informacao;Solido;0
-94;Casual;Medio-Alto;0;S;Primavera;V;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;1
-95;Casual;Medio-Alto;0;M;Primavera;V;Tres Quartos;Natural;Seda;Seda;Folhos;Solido;1
-96;Casual;Medio;0;M;Primavera;O;Nenhuma;Natural;Seda;Sem informacao;Sem informacao;Impressao;0
-97;Casual;Medio;0;Tamanho unico;Inverno;V;Comprida;Natural;Sem informacao;Seda;Folhos;Impressao;0
-98;Vintage;Baixo;4,8;S;Verao;O;Curta;Natural;Sem informacao;Seda;Folhos;Impressao;0
-99;Sensual;Baixo;4,8;L;Verao;V;Comprida;Natural;Algodao;Malha;Apliques;Impressao;1
-100;fashion;Medio;4;Tamanho unico;Verao;Aberto;Comprida;Sem informacao;Algodao;Sem informacao;Lantejoulas;Solido;0
-101;Casual;Medio;4,7;L;Verao;V;Curta;Natural;Sem informacao;Sem informacao;Sem informacao;Impressao;1
-102;Casual;Baixo;0;Tamanho unico;Inverno;O;Meia;Natural;Poliester;La;Sem informacao;Mistura;1
-103;Boemio;Baixo;4,8;Tamanho unico;Verao;O;Curta;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;1
-104;Trabalho;Medio-Alto;4,6;L;Inverno;Quadrado;Curta;Imperio;Algodao;Sem informacao;Camadas;Solido;0
-105;Vintage;Medio;4,7;L;Verao;O;Curta;Natural;Algodao;Sem informacao;Botao;Solido;0
-106;Fofo;Baixo;4,7;M;Primavera;O;Curta;Imperio;Poliester;Seda;Folhos;Pontos;1
-107;Casual;Baixo;4,6;Tamanho unico;Outono;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-108;Casual;Medio-Alto;0;Tamanho unico;Primavera;O;Nenhuma;Natural;Algodao;Pano grosso;Lantejoulas;Solido;1
-109;Casual;Medio;4,7;L;Outono;O;Meia;Sem informacao;Sem informacao;Sem informacao;Renda;Sem informacao;0
-110;Sensual;Medio;0;L;Outono;V;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Mistura;0
-111;Casual;Baixo;4,7;Tamanho unico;Inverno;O;Nenhuma;Natural;Algodao;Malha;Sem informacao;Solido;1
-112;Casual;Medio;0;M;Outono;O;Curta;Imperio;Poliester;Sem informacao;Apliques;Impressao;0
-113;Fofo;Medio;4,8;L;Outono;Bateau;Nenhuma;Natural;Sem informacao;Seda;Buracos;Solido;0
-114;Festa;Medio;5;M;Primavera;O;Meia;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-115;Fofo;Medio;4,3;L;Inverno;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0
-116;Casual;Medio;4,5;L;Primavera;O;Curta;Natural;Algodao;Seda;Sem informacao;Mistura;0
-117;Casual;Baixo;4,7;L;Outono;O;Comprida;Sem informacao;Algodao;Seda;Renda;Impressao;0
-118;Casual;Baixo;4,5;Tamanho unico;Outono;V;Curta;Natural;Seda;La;Renda;Solido;0
-119;Sensual;Medio;3,6;L;Inverno;V;Comprida;Natural;Poliester;La;Perolas;Solido;1
-120;Trabalho;Medio;4,8;L;Inverno;V;Curta;Natural;Variados;Pano grosso;Renda;Solido;0
-121;Vintage;Medio;0;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-122;Sensual;Baixo;4,6;Tamanho unico;Primavera;O;Comprida;Natural;Sem informacao;Sem informacao;Renda;Leopardo;1
-123;Sensual;Baixo;0;Tamanho unico;Inverno;V;Nenhuma;Imperio;Algodao;Seda;Sem informacao;Solido;1
-124;Trabalho;Medio;4,6;L;Primavera;O;Curta;Imperio;Algodao;Malha;Sem informacao;Mistura;0
-125;Casual;Medio;4,4;M;Verao;O;Curta;Imperio;Sem informacao;Sem informacao;Renda;Mistura;0
-126;Fofo;Baixo;4,9;M;Outono;O;Curta;Natural;Sintetico;Seda;Laco;Pontos;0
-127;Sensual;Baixo;4,6;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Pano grosso;Perolas;Solido;0
-128;Festa;Medio;4,4;Tamanho unico;Outono;V;Tres Quartos;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0
-129;Casual;Medio;0;Tamanho unico;Primavera;O;Curta;Sem informacao;Algodao;Sem informacao;Renda;Sem informacao;1
-130;Casual;Baixo;0;M;Verao;V;Comprida;Natural;Acrilico;Sem informacao;Renda;Solido;0
-131;Sensual;Medio;4,6;M;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Mistura;1
-132;Trabalho;Medio;4,6;M;Primavera;V;Comprida;Sem informacao;Sem informacao;Seda;Sem informacao;Sem informacao;0
-133;Fofo;Medio;4,7;L;Inverno;O;Nenhuma;Natural;Sintetico;Sem informacao;Renda;Solido;0
-134;Boemio;Medio;4,7;L;Outono;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0
-135;Fofo;Alto;0;M;Inverno;O;Tres Quartos;Imperio;Seda;Seda;Renda;Mistura;0
-136;Casual;Medio;0;XL;Inverno;O;Curta;Imperio;Poliester;Sem informacao;Botao;Solido;0
-137;Novo;Medio;4,9;L;Outono;O;Curta;Natural;Poliester;Seda;Sem informacao;Impressao;1
-138;Casual;Baixo;4,7;M;Outono;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;0
-139;Fofo;Medio;4,3;Tamanho unico;Verao;U;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-140;Sensual;Baixo;0;Tamanho unico;Outono;Bateau;Curta;Imperio;Sem informacao;Sem informacao;Buracos;Solido;0
-141;Fofo;Baixo;4,7;XL;Verao;O;Curta;Imperio;Sintetico;Seda;Laco;Impressao;0
-142;Sensual;Baixo;4,5;L;Primavera;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Renda;Solido;0
-143;Casual;Medio;4,7;M;Outono;O;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Animal;1
-144;Casual;Medio;0;L;Primavera;U;Nenhuma;Natural;Algodao;Sem informacao;Renda;Solido;1
-145;Fofo;Baixo;4,7;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Seda;Sem informacao;Impressao;1
-146;Casual;Baixo;4,4;Tamanho unico;Verao;Botoes;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;0
-147;Casual;Medio;4,8;L;Inverno;V;Curta;Imperio;Poliester;Sem informacao;Folhos;Solido;0
-148;Vintage;Medio;4,3;Tamanho unico;Inverno;O;Curta;Sem informacao;Sintetico;Seda;Sem informacao;Impressao;0
-149;Fofo;Baixo;4,5;L;Verao;O;Nenhuma;Natural;Algodao;Seda;Faixa;Solido;1
-150;Casual;Medio;4,4;M;Verao;Botoes;Nenhuma;Natural;Sintetico;Seda;Sem informacao;Solido;0
-151;Vintage;Medio-Alto;0;S;Inverno;Botoes;Meia;Natural;Algodao;Pano grosso;Sem informacao;Xadrez;0
-152;Sensual;Baixo;4,7;Tamanho unico;Verao;Botoes;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-153;Vintage;Alto;0;L;Verao;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0
-154;Casual;Baixo;0;Tamanho unico;Primavera;V;Tres Quartos;Sem informacao;Seda;Sem informacao;Renda;Sem informacao;1
-155;Sensual;Medio;0;S;Outono;Bateau;Curta;Natural;Sem informacao;Sem informacao;Renda;Solido;0
-156;Casual;Baixo;0;Tamanho unico;Primavera;O;Curta;Natural;Sem informacao;Sem informacao;Buracos;Solido;0
-157;Fofo;Medio-Alto;5;Tamanho unico;Inverno;O;Nenhuma;Natural;Seda;Sem informacao;Renda;Solido;1
-158;Casual;Baixo;4,7;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Impressao;0
-159;Sensual;Baixo;4,8;Tamanho unico;Primavera;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Lantejoulas;Solido;1
-160;Casual;Medio;4,5;L;Inverno;O;Curta;Natural;Algodao;Sem informacao;Laco;Mistura;0
-161;Vintage;Medio;0;S;Primavera;O;Comprida;Natural;Variados;Seda;Bordado;Impressao;0
-162;Casual;Medio;3,7;Tamanho unico;Outono;U;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Solido;1
-163;Vintage;Medio;4,8;L;Inverno;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-164;Fofo;Medio;0;XL;Primavera;U;Comprida;Sem informacao;Algodao;La;Apliques;Pontos;1
-165;Casual;Medio;0;L;Inverno;Aberto;Curta;Natural;Variados;Poplin;Apliques;Solido;1
-166;Sensual;Medio-Alto;5;M;Inverno;O;Nenhuma;Imperio;Poliester;Sem informacao;Laco;Solido;0
-167;Intimo;Medio;4,9;Tamanho unico;Verao;Bateau;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0
-168;Casual;Alto;4,9;S;Primavera;O;Tres Quartos;Natural;Sem informacao;Sem informacao;Sem informacao;Pontos;1
-169;Intimo;Medio;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Variados;Sem informacao;Faixa;Solido;0
-170;Casual;Baixo;4,5;Tamanho unico;Inverno;O;Comprida;Natural;Variados;La;Apliques;Solido;0
-171;Casual;Baixo;4,8;XL;Verao;O;Curta;Imperio;Variados;Seda;Faixa;Geometrico;0
-172;Sensual;Medio-Alto;4,6;L;Verao;O;Curta;Natural;Spandex;Malha;Renda;Solido;0
-173;Casual;Medio;4,5;M;Inverno;V;Nenhuma;Natural;Sem informacao;Seda;Botao;Riscas;0
-174;Trabalho;Medio;0;S;Outono;O;Nenhuma;Natural;Linho;Sem informacao;Sem informacao;Mistura;0
-175;Casual;Baixo;0;L;Inverno;O;Nenhuma;Imperio;Poliester;Sem informacao;Sem informacao;Leopardo;0
-176;Fofo;Baixo;5;L;Inverno;O;Tres Quartos;Natural;Seda;Seda;Faixa;Impressao;0
-177;Intimo;Medio;4,3;M;Primavera;O;Comprida;Natural;Variados;La;Lantejoulas;Mistura;1
-178;Sensual;Baixo;4,4;Tamanho unico;Outono;O;Comprida;Imperio;Algodao;Sem informacao;Sem informacao;Leopardo;0
-179;Fofo;Baixo;0;Tamanho unico;Verao;Peter Pan;Curta;Imperio;Algodao;Pano grosso;Apliques;Impressao;0
-180;Casual;Medio;4,5;Tamanho unico;Verao;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-181;Sensual;Baixo;4,7;M;Inverno;Bateau;Nenhuma;Sem informacao;Nylon;Sem informacao;Faixa;Solido;1
-182;Casual;Baixo;4,7;Tamanho unico;Primavera;O;Nenhuma;Imperio;Algodao;Seda;Sem informacao;Floral;0
-183;Casual;Medio-Alto;4,8;M;Inverno;Peter Pan;Curta;Natural;Poliester;Seda;Renda;Mistura;0
-184;Sensual;Baixo;4,3;Tamanho unico;Inverno;V;Nenhuma;Natural;Seda;La;Renda;Solido;1
-185;Boemio;Medio;0;L;Inverno;Botoes;Comprida;Natural;Variados;Sem informacao;Sem informacao;Solido;0
-186;Casual;Baixo;0;Tamanho unico;Sem informacao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-187;Fofo;Medio-Alto;4,8;Tamanho unico;Primavera;Bateau;Nenhuma;Natural;Poliester;Seda;Faixa;Solido;1
-188;Sensual;Medio;0;S;Outono;V;Nenhuma;Imperio;Algodao;Sem informacao;Perolas;Solido;0
-189;Casual;Baixo;4,6;S;Primavera;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-190;Vintage;Medio-Alto;4,7;Tamanho unico;Primavera;Botoes;Nenhuma;Natural;Variados;Sem informacao;Renda;Solido;1
-191;Trabalho;Baixo;4,7;Tamanho unico;Verao;O;Comprida;Imperio;Algodao;Sem informacao;Sem informacao;Solido;0
-192;Fofo;Medio;4,8;M;Verao;O;Curta;Natural;Algodao;Sem informacao;Rivet;Solido;0
-193;Fofo;Medio;0;M;Verao;O;Curta;Natural;Algodao;Seda;Sem informacao;Impressao;0
-194;Casual;Medio;4,7;M;Inverno;O;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;0
-195;Casual;Baixo;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Apliques;Solido;1
-196;Festa;Medio;5;Tamanho unico;Verao;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-197;Casual;Medio;0;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Seda;Sem informacao;Mistura;0
-198;Sensual;Medio;5;L;Inverno;O;Tres Quartos;Natural;Poliester;Sem informacao;Renda;Geometrico;0
-199;Sensual;Medio;4,8;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Bordado;Solido;0
-200;Casual;Medio;4,7;S;Verao;V;Curta;Natural;Algodao;Sem informacao;Sem informacao;Pontos;0
-201;Casual;Medio;4,1;M;Outono;V;Comprida;Sem informacao;Sem informacao;Seda;Faixa;Sem informacao;1
-202;Casual;Medio;5;XL;Outono;O;Curta;Natural;Sintetico;Seda;Sem informacao;Sem informacao;0
-203;Sensual;Medio;5;M;Verao;V;Nenhuma;Imperio;Algodao;Sem informacao;Lantejoulas;Solido;1
-204;Trabalho;Medio;4,6;L;Verao;Bateau;Curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;0
-205;Casual;Medio;4,5;M;Verao;Peter Pan;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-206;Vintage;Medio;4,5;L;Outono;O;Nenhuma;Imperio;Sem informacao;La;Sem informacao;Solido;0
-207;Casual;Medio;0;M;Verao;O;Tres Quartos;Natural;Nylon;Pano grosso;Sem informacao;Solido;1
-208;Fofo;Medio;4,7;L;Verao;O;Nenhuma;Natural;Algodao;La;Sem informacao;Impressao;0
-209;Boemio;Baixo;4,7;Tamanho unico;Inverno;O;Curta;Natural;Nylon;Sem informacao;Faixa;Impressao;0
-210;Casual;Baixo;5;Tamanho unico;Primavera;Bateau;Nenhuma;Imperio;Spandex;Sem informacao;Sem informacao;Riscas;1
-211;Casual;Medio;5;M;Inverno;O;Nenhuma;Natural;Sem informacao;Seda;Faixa;Solido;1
-212;Casual;Medio;4,3;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;La;Sem informacao;Riscas;0
-213;Trabalho;Baixo;4,5;M;Inverno;V;Tres Quartos;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Mistura;0
-214;Casual;Medio;4,3;S;Primavera;U;Comprida;Natural;Algodao;Sem informacao;Renda;Mistura;1
-215;Casual;Medio;4,4;L;Outono;O;Meia;Natural;Sem informacao;Pano;Renda;Animal;0
-216;Sensual;Baixo;4,3;M;Outono;Aberto;Curta;Natural;Renda;Sem informacao;Renda;Impressao;0
-217;Casual;Baixo;4,6;Tamanho unico;Verao;O;Comprida;Natural;Algodao;La;Renda;Solido;1
-218;Casual;Baixo;4,6;L;Inverno;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Sem informacao;0
-219;Casual;Medio;4,6;M;Primavera;O;Nenhuma;Natural;Sem informacao;Seda;Faixa;Solido;1
-220;Casual;Baixo;0;Tamanho unico;Outono;Peter Pan;Tres Quartos;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-221;Casual;Medio;4,7;S;Primavera;O;Meia;Imperio;Sem informacao;Seda;Sem informacao;Sem informacao;1
-222;Casual;Medio;0;S;Verao;O;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Solido;0
-223;Casual;Baixo;4,8;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Impressao;1
-224;Casual;Medio;5;S;Inverno;O;Nenhuma;Imperio;Poliester;Seda;Sem informacao;Xadrez;0
-225;Sensual;Muito alto;0;Tamanho unico;Inverno;V;Nenhuma;Natural;Poliester;Malha;Sem informacao;Solido;0
-226;Casual;Baixo;4,4;Tamanho unico;Verao;O;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Impressao;0
-227;Casual;Medio;4,8;M;Outono;V;Curta;Sem informacao;Sem informacao;Seda;Bordado;Impressao;1
-228;Casual;Medio;5;Tamanho unico;Verao;V;Nenhuma;Sem informacao;Seda artificial;Sem informacao;Sem informacao;Mistura;0
-229;Sensual;Baixo;4,8;M;Outono;V;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Impressao;1
-230;Casual;Medio;4,6;Tamanho unico;Inverno;V;Comprida;Natural;Algodao;Flanela;Sem informacao;Riscas;0
-231;Casual;Medio;4,6;M;Inverno;V;Comprida;Natural;Sintetico;Seda;Sem informacao;Sem informacao;0
-232;Casual;Baixo;5;S;Primavera;O;Nenhuma;Natural;Sintetico;Sem informacao;Sem informacao;Impressao;0
-233;Fofo;Medio;0;M;Inverno;O;Curta;Natural;Poliester;Seda;Faixa;Solido;0
-234;Casual;Baixo;4,8;Tamanho unico;Primavera;O;Nenhuma;Sem informacao;Sintetico;Seda;Sem informacao;Impressao;1
-235;Casual;Medio;4,6;M;Outono;O;Curta;Imperio;Poliester;Sem informacao;Apliques;Pontos;0
-236;Boemio;Medio;5;M;Primavera;Bateau;Nenhuma;Imperio;Sem informacao;Seda;Folhos;Solido;1
-237;Casual;Baixo;4,9;Tamanho unico;Inverno;O;Nenhuma;Imperio;Seda;Sem informacao;Faixa;Impressao;1
-238;Casual;Medio;4,7;L;Verao;O;Nenhuma;Natural;Seda;Seda;Perolas;Solido;0
-239;Casual;Medio-Alto;4,6;M;Inverno;O;Comprida;Natural;Caxemira;Sem informacao;Sem informacao;Solido;1
-240;Casual;Medio;4,7;M;Inverno;V;Nenhuma;Imperio;Poliester;Seda;Apliques;Impressao;0
-241;Sensual;Medio;4,7;M;Inverno;V;Nenhuma;Natural;Poliester;Pano grosso;Sem informacao;Mistura;0
-242;Casual;Medio;3,5;M;Inverno;V;Curta;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0
-243;Casual;Medio;4,8;M;Inverno;O;Tres Quartos;Natural;Sem informacao;Sem informacao;Sem informacao;Impressao;1
-244;Casual;Medio;0;M;Inverno;O;Comprida;Natural;Algodao;Malha;Penas;Solido;1
-245;Casual;Baixo;4,6;M;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Faixa;Riscas;0
-246;Casual;Medio;4,7;L;Primavera;V;Meia;Natural;Sem informacao;Pano grosso;Sem informacao;Impressao;1
-247;Casual;Baixo;4,5;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Botao;Solido;0
-248;Casual;Medio;4,7;M;Verao;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Personagem;0
-249;Casual;Baixo;4,5;M;Inverno;O;Curta;Natural;Sintetico;Seda;Sem informacao;Solido;0
-250;Casual;Baixo;4,7;S;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-251;Fofo;Baixo;0;Tamanho unico;Verao;U;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Impressao;0
-252;Festa;Muito alto;5;M;Primavera;Bateau;Nenhuma;Natural;Sintetico;Seda;Flores;Sem informacao;1
-253;Casual;Medio;4,9;M;Outono;V;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;1
-254;Festa;Muito alto;0;L;Inverno;V;Nenhuma;Natural;Poliester;Tule;Perolas;Sem informacao;0
-255;Festa;Muito alto;0;M;Inverno;V;Muito curta;Sem informacao;Sem informacao;Seda;Renda;Sem informacao;0
-256;Casual;Baixo;4,4;M;Inverno;V;Botoes;Sem informacao;Algodao;Sem informacao;Sem informacao;Sem informacao;1
-257;Festa;Muito alto;0;M;Primavera;V;Tres Quartos;Natural;Licra;Cetim;Apliques;Sem informacao;1
-258;Festa;Alto;0;M;Inverno;Coracao;Nenhuma;Natural;Sem informacao;Sem informacao;Perolas;Sem informacao;0
-259;Festa;Alto;0;M;Primavera;Coracao;Nenhuma;Sem informacao;Nylon;Sem informacao;Sem informacao;Sem informacao;0
-260;Festa;Medio;5;M;Inverno;O;Muito curta;Imperio;Poliester;Sem informacao;Renda;Sem informacao;1
-261;Festa;Alto;4,7;M;Inverno;Coracao;Nenhuma;Natural;Sem informacao;Seda;Flores;Sem informacao;0
-262;Festa;Sem informacao;4,8;Tamanho unico;Inverno;O;Nenhuma;Imperio;Sem informacao;Sem informacao;Bordado;Sem informacao;1
-263;Festa;Sem informacao;4,5;L;Verao;Sem informacao;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-264;Festa;Muito alto;4,9;M;Primavera;Coracao;Nenhuma;Imperio;Sem informacao;Seda;Perolas;Sem informacao;1
-265;Festa;Alto;4,6;M;Inverno;Coracao;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Sem informacao;0
-266;Festa;Medio;5;M;Primavera;Coracao;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Sem informacao;1
-267;Festa;Muito alto;4,8;L;Primavera;Coracao;Nenhuma;Imperio;Microfibra;Organza;Perolas;Sem informacao;1
-268;Festa;Muito alto;0;M;Inverno;Coracao;Nenhuma;Natural;Poliester;Seda;Perolas;Sem informacao;1
-269;Festa;Alto;4,6;L;Primavera;Bateau;Nenhuma;Imperio;Seda;Seda;Perolas;Sem informacao;0
-270;Festa;Medio;4,8;L;Sem informacao;Coracao;Nenhuma;Imperio;Sem informacao;Sem informacao;Prega;Sem informacao;1
-271;Festa;Medio-Alto;4,6;S;Inverno;Colher;Curta;Imperio;Sem informacao;Sem informacao;Cristal;Sem informacao;0
-272;Festa;Muito alto;4,9;M;Primavera;Coracao;Nenhuma;Natural;Seda;Seda;Perolas;Sem informacao;1
-273;Festa;Medio-Alto;4,8;S;Primavera;V;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-274;Festa;Muito alto;4,2;L;Inverno;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Renda;Sem informacao;1
-275;Casual;Baixo;4,4;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-276;Festa;Muito alto;4,1;M;Inverno;Colher;Curta;Natural;Algodao;Renda;Apliques;Sem informacao;1
-277;Festa;Muito alto;0;M;Inverno;O;Comprida;Natural;Sem informacao;Sem informacao;Penas;Sem informacao;1
-278;Casual;Alto;4,6;M;Verao;Coracao;Nenhuma;Imperio;Sem informacao;Sem informacao;Perolas;Sem informacao;1
-279;Festa;Medio;4,7;Tamanho unico;Inverno;O;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;0
-280;Festa;Muito alto;4,7;L;Inverno;Bateau;Nenhuma;Imperio;Viscose;Seda;Perolas;Sem informacao;1
-281;Festa;Muito alto;4,5;M;Primavera;V;Muito curta;Sem informacao;Sem informacao;Sem informacao;Renda;Sem informacao;1
-282;Festa;Medio;4,7;Tamanho unico;Primavera;Coracao;Nenhuma;Imperio;Seda artificial;Seda;Perolas;Solido;1
-283;Festa;Alto;4,8;M;Verao;Coracao;Nenhuma;Princesa;Sem informacao;Cetim;Sem informacao;Sem informacao;1
-284;Festa;Alto;4,6;M;Verao;Bateau;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Sem informacao;1
-285;Festa;Medio-Alto;4,7;M;Inverno;O;Nenhuma;Imperio;Algodao;Seda;Botao;Sem informacao;1
-286;Fofo;Medio;4,4;Tamanho unico;Primavera;Coracao;Nenhuma;Imperio;Spandex;Tule;Dobras;Solido;1
-287;Festa;Medio;5;M;Primavera;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-288;Festa;Muito alto;4,8;Tamanho unico;Primavera;Coracao;Nenhuma;Natural;Poliester;Seda;Perolas;Sem informacao;1
-289;Festa;Medio-Alto;4,8;M;Primavera;O;Nenhuma;Natural;Seda;Seda;Cristal;Sem informacao;1
-290;Festa;Muito alto;4,9;L;Primavera;Bateau;Nenhuma;Sem informacao;Sem informacao;Seda;Flores;Sem informacao;1
-291;Festa;Medio-Alto;0;Tamanho unico;Inverno;V;Curta;Imperio;Sem informacao;Seda;Renda;Sem informacao;1
-292;Trabalho;Medio;5;Tamanho unico;Inverno;O;Meia;Sem informacao;Microfibra;Sem informacao;Sem informacao;Sem informacao;0
-293;Festa;Muito alto;4,9;M;Primavera;V;Nenhuma;Imperio;Sem informacao;Cetim;Perolas;Sem informacao;1
-294;Casual;Alto;5;Tamanho unico;Verao;V;Nenhuma;Natural;Nylon;Sem informacao;Sem informacao;Sem informacao;1
-295;Casual;Muito alto;0;S;Primavera;O;Comprida;Sem informacao;Sem informacao;Seda;Apliques;Sem informacao;0
-296;Casual;Medio-Alto;4,7;M;Primavera;O;Nenhuma;Natural;Algodao;Sem informacao;Laco;Sem informacao;1
-297;Festa;Medio;0;M;Primavera;V;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-298;Casual;Medio;4,4;Tamanho unico;Verao;Bateau;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Sem informacao;1
-299;Casual;Muito alto;4,6;M;Inverno;O;Curta;Natural;Sem informacao;Sem informacao;Flores;Sem informacao;1
-300;Casual;Baixo;4,4;Tamanho unico;Inverno;Alcas;Nenhuma;Natural;Sem informacao;Sem informacao;Em cortina;Sem informacao;1
-301;Festa;Alto;4,5;M;Inverno;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-302;Casual;Medio;4,8;Tamanho unico;Verao;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-303;Sensual;Medio;5;M;Verao;O;Nenhuma;Natural;Poliester;Pano grosso;Rivet;Sem informacao;0
-304;Vintage;Medio;4,9;Tamanho unico;Verao;O;Botoes;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-305;Vintage;Medio;4,7;S;Verao;Botoes;Curta;Imperio;Algodao;Sem informacao;Sem informacao;Sem informacao;0
-306;Trabalho;Medio;4,9;M;Verao;Quadrado;Meia;Imperio;Poliester;Cetim;Faixa;Sem informacao;0
-307;Casual;Baixo;4,7;L;Primavera;O;Curta;Natural;Sintetico;Seda;Sem informacao;Sem informacao;0
-308;Casual;Medio;4,8;L;Outono;O;Curta;Natural;Caxemira;Sem informacao;Sem informacao;Sem informacao;0
-309;Sensual;Baixo;4,7;Tamanho unico;Primavera;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Lantejoulas;Sem informacao;1
-310;Casual;Medio;0;S;Inverno;Bateau;Meia;Natural;Nylon;Pano grosso;Sem informacao;Sem informacao;0
-311;Casual;Medio;4,2;S;Inverno;V;Nenhuma;Imperio;Outros;Seda;Buracos;Mistura;0
-312;Novo;Medio;0;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Cetim;Buracos;Solido;0
-313;Casual;Baixo;4,3;Tamanho unico;Verao;Sem costas;Nenhuma;Imperio;Sintetico;Seda;Cristal;Sem informacao;0
-314;Casual;Medio;3,7;M;Verao;U;Nenhuma;Natural;Linho;Sem informacao;Sem informacao;Sem informacao;0
-315;Casual;Medio;5;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Pano grosso;Renda;Sem informacao;1
-316;Sensual;Baixo;5;Tamanho unico;Primavera;V;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Sem informacao;0
-317;Fofo;Baixo;0;Tamanho unico;Inverno;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Sem informacao;0
-318;Vintage;Medio;4,8;M;Verao;V;Comprida;Natural;Seda artificial;Poplin;Sem informacao;Sem informacao;1
-319;Boemio;Medio;4,8;L;Inverno;O;Nenhuma;Natural;Poliester;Seda;Sem informacao;Solido;0
-320;Boemio;Medio;0;Tamanho unico;Primavera;O;Nenhuma;Natural;Seda artificial;Seda;Sem informacao;Riscas;1
-321;Sensual;Medio;4,5;M;Verao;Laco;Nenhuma;Sem informacao;Algodao;Seda;Sem informacao;Solido;0
-322;Novo;Medio-Alto;4,2;M;Inverno;O;Meia;Natural;Poliester;Seda;Buracos;Animal;1
-323;Casual;Baixo;5;Tamanho unico;Primavera;V;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-324;Casual;Medio;5;L;Inverno;O;Tres Quartos;Natural;Poliester;Sem informacao;Apliques;Solido;0
-325;Casual;Baixo;4,8;M;Inverno;V;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Impressao;0
-326;Boemio;Baixo;5;Tamanho unico;Primavera;O;Curta;Natural;Nylon;Malha;Faixa;Impressao;1
-327;Casual;Baixo;5;Tamanho unico;Primavera;Laco;Nenhuma;Natural;Seda;Seda;Apliques;Impressao;0
-328;Casual;Baixo;5;M;Primavera;O;Nenhuma;Natural;Sintetico;Seda;Sem informacao;Solido;1
-329;Fofo;Medio;4,3;M;Verao;Sem informacao;Sem informacao;Natural;Algodao;Seda;Sem informacao;Solido;0
-330;Novo;Medio;0;Tamanho unico;Inverno;O;Curta;Natural;Poliester;Pano grosso;Renda;Sem informacao;1
-331;Fofo;Baixo;0;L;Primavera;O;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-332;Sensual;Baixo;4,8;Tamanho unico;Primavera;Bateau;Nenhuma;Natural;Algodao;Pano grosso;Lantejoulas;Solido;0
-333;Sensual;Baixo;4,8;Tamanho unico;Verao;Bateau;Nenhuma;Imperio;Seda;Sem informacao;Renda;Solido;0
-334;Casual;Baixo;4,4;M;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Solido;0
-335;Casual;Medio;4,5;M;Inverno;O;Nenhuma;Natural;Poliester;Seda;Dobras;Riscas;0
-336;Casual;Baixo;4,7;S;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-337;Casual;Baixo;4,4;Tamanho unico;Primavera;O;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Impressao;0
-338;Trabalho;Medio;4,9;M;Inverno;Bateau;Curta;Natural;Poliester;Pano grosso;Folhos;Solido;0
-339;Fofo;Medio-Alto;4,6;Tamanho unico;Primavera;O;Curta;Natural;Sintetico;Sem informacao;Buracos;Solido;1
-340;Casual;Baixo;4,7;Tamanho unico;Primavera;O;Meia;Natural;Seda;Seda;Faixa;Impressao;0
-341;Casual;Baixo;4,7;M;Inverno;O;Comprida;Imperio;Poliester;Seda;Sem informacao;Impressao;1
-342;Casual;Medio;4,8;M;Primavera;O;Nenhuma;Natural;Algodao;Seda;Buracos;Impressao;0
-343;Sensual;Baixo;4,8;L;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-344;Casual;Medio;4,3;M;Primavera;O;Meia;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-345;Casual;Medio;4,7;XL;Inverno;V;Curta;Imperio;Seda de leite;Sem informacao;Sem informacao;Impressao;0
-346;Casual;Baixo;0;L;Inverno;V;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Solido;0
-347;Sensual;Medio;4,7;M;Outono;Bateau;Nenhuma;Natural;Nylon;Sem informacao;Rivet;Solido;0
-348;Casual;Baixo;4,7;Tamanho unico;Inverno;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-349;Casual;Alto;0;L;Inverno;V;Comprida;Sem informacao;Poliester;Sem informacao;Sem informacao;Solido;0
-350;Casual;Baixo;4,7;L;Verao;O;Nenhuma;Natural;Seda;La;Renda;Mistura;0
-351;Casual;Medio;4,7;Tamanho unico;Verao;V;Comprida;Natural;Algodao;Sem informacao;Faixa;Solido;0
-352;Casual;Medio;0;Tamanho unico;Inverno;V;Comprida;Sem informacao;Caxemira;Sem informacao;Sem informacao;Solido;1
-353;Casual;Baixo;4,7;Tamanho unico;Verao;O;Muito curta;Natural;Sintetico;Seda;Sem informacao;Impressao;1
-354;Casual;Medio;4,7;M;Verao;O;Tres Quartos;Sem informacao;Sintetico;Seda;Dobras;Solido;0
-355;Sensual;Baixo;4,5;Tamanho unico;Verao;Bateau;Nenhuma;Sem informacao;Poliester;Veludo;Sem informacao;Sem informacao;0
-356;Vintage;Baixo;4;Tamanho unico;Verao;Botoes;Curta;Natural;Algodao;La;Buracos;Solido;0
-357;Sensual;Baixo;4,7;Tamanho unico;Verao;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-358;Boemio;Baixo;5;Tamanho unico;Verao;O;Nenhuma;Imperio;Algodao;Pano grosso;Pendao;Impressao;1
-359;Casual;Baixo;4,7;S;Inverno;O;Nenhuma;Natural;Malha;Sem informacao;Renda;Solido;0
-360;Sensual;Medio;4,5;S;Inverno;V;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;0
-361;Fofo;Medio;4,7;M;Verao;O;Nenhuma;Natural;Sintetico;Sem informacao;Faixa;Trancas;0
-362;Vintage;Baixo;0;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Batik;Sem informacao;Impressao;1
-363;Casual;Medio;4,1;L;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Sem informacao;1
-364;Casual;Medio;4,2;M;Inverno;V;Comprida;Imperio;Poliester;Sem informacao;Renda;Mistura;1
-365;Intimo;Medio;4,8;Tamanho unico;Inverno;V;Meia;Natural;Poliester;Pano grosso;Sem informacao;Solido;0
-366;Intimo;Medio;4,9;Tamanho unico;Inverno;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0
-367;Sensual;Medio;4,8;S;Inverno;V;Nenhuma;Imperio;Poliester;Seda;Renda;Solido;0
-368;Casual;Medio;4,7;L;Inverno;O;Nenhuma;Natural;Poliester;Seda;Sem informacao;Mistura;0
-369;Vintage;Medio;4,7;M;Verao;V;Curta;Natural;Seda artificial;Sem informacao;Perolas;Impressao;0
-370;Casual;Medio;4,8;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Seda;Faixa;Solido;0
-371;Sensual;Baixo;4,7;M;Inverno;V;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Riscas;0
-372;Casual;Medio;5;s;Primavera;Botoes;Comprida;Imperio;Algodao;La;Sem informacao;Solido;0
-373;Casual;Baixo;1;M;Primavera;O;Meia;Sem informacao;Sem informacao;Seda;Sem informacao;Sem informacao;0
-374;Sensual;Medio;4,1;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Sem informacao;Renda;Sem informacao;1
-375;Casual;Baixo;4;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Pano grosso;Buracos;Impressao;0
-376;Trabalho;Medio;4,7;M;Primavera;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-377;Fofo;Medio;4,6;Tamanho unico;Primavera;V;Comprida;Natural;Algodao;Seda;Sem informacao;Solido;1
-378;Casual;Baixo;5;M;Primavera;O;Nenhuma;Natural;Spandex;Malha;Sem informacao;Impressao;0
-379;Casual;Medio;4,7;M;Outono;V;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Riscas;1
-380;Casual;Baixo;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Apliques;Solido;0
-381;Casual;Medio;4,5;L;Verao;O;Curta;Natural;Algodao;Malha;Bolsos;Solido;0
-382;Fofo;Medio;4,6;M;Outono;O;Tres Quartos;Natural;Seda;Seda;Faixa;Impressao;0
-383;Casual;Baixo;4,6;Tamanho unico;Outono;O;Meia;Natural;Sintetico;Seda;Sem informacao;Leopardo;1
-384;Casual;Baixo;4,7;L;Verao;Sem informacao;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;1
-385;Sensual;Baixo;0;L;Verao;O;Nenhuma;Imperio;sill;Sem informacao;Sem informacao;Riscas;0
-386;Boemio;Medio;4;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Seda;Folhos;Riscas;0
-387;Casual;Baixo;4,7;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-388;Trabalho;Medio;0;M;Verao;V;Nenhuma;Natural;Algodao;La;Sem informacao;Solido;1
-389;Boemio;Medio;4,1;Tamanho unico;Verao;O;Tres Quartos;Sem informacao;Sem informacao;Sem informacao;Buracos;Sem informacao;0
-390;Casual;Medio;0;M;Primavera;O;Meia;Natural;Sem informacao;Sem informacao;Renda;Sem informacao;0
-391;Intimo;Baixo;4,6;M;Verao;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Animal;0
-392;Fofo;Baixo;0;Tamanho unico;Primavera;V;Nenhuma;Imperio;Sintetico;Seda;Sem informacao;Sem informacao;1
-393;Casual;Medio;5;M;Primavera;O;Tres Quartos;Sem informacao;Spandex;Sem informacao;Sem informacao;Sem informacao;0
-394;Casual;Baixo;5;Tamanho unico;Inverno;O;Comprida;Natural;La;Sem informacao;Apliques;Solido;0
-395;Vintage;Medio;4,5;L;Inverno;O;Curta;Imperio;Sem informacao;Sem informacao;Lantejoulas;Mistura;1
-396;Casual;Medio;4,5;Tamanho unico;Verao;O;Curta;Natural;Poliester;Sem informacao;Sem informacao;Solido;0
-397;Boemio;Baixo;4,4;L;Verao;Laco;Curta;Natural;Algodao;Sem informacao;Sem informacao;Pontos;0
-398;Casual;Alto;0;L;Inverno;V;Tres Quartos;Natural;Poliester;Sem informacao;Folhos;Solido;1
-399;Casual;Medio;4,8;Tamanho unico;Inverno;O;Nenhuma;Sem informacao;Poliester;Sem informacao;Faixa;Solido;0
-400;Intimo;Baixo;4,7;M;Inverno;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0
-401;Casual;Medio-Alto;0;Tamanho unico;Inverno;Laco;Comprida;Sem informacao;Caxemira;Malha;Sem informacao;Solido;1
-402;Casual;Medio;4,7;M;Inverno;O;Curta;Imperio;Poliester;Sintetico;Sem informacao;Animal;0
-403;Festa;Medio;0;M;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;1
-404;Boemio;Medio;4,8;S;Verao;V;Curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;0
-405;Sensual;Medio;4,9;Tamanho unico;Verao;Quadrado;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Impressao;0
-406;Casual;Medio;3;M;Primavera;Botoes;Curta;Imperio;Poliester;Sem informacao;Faixa;Mistura;0
-407;Casual;Baixo;4,7;L;Outono;O;Curta;Natural;Poliester;Sintetico;Sem informacao;Mistura;1
-408;Casual;Medio;4,3;M;Outono;O;Nenhuma;Natural;Poliester;Sem informacao;Liso;Solido;0
-409;Casual;Medio;0;XL;Inverno;V;Curta;Imperio;Poliester;Sintetico;Bolsos;Solido;1
-410;Casual;Baixo;5;Tamanho unico;Verao;O;Nenhuma;Natural;Seda artificial;Malha;Liso;Solido;1
-411;Vintage;Medio;0;L;Verao;Quadrado;Curta;Imperio;Algodao;Seda;Sem informacao;Pontos;1
-412;Casual;Baixo;4,7;Tamanho unico;Inverno;O;Nenhuma;Natural;Seda de leite;Sem informacao;Sem informacao;Animal;0
-413;Vintage;Medio;5;M;Verao;V;Tres Quartos;Natural;Poliester;Sem informacao;Sem informacao;Impressao;0
-414;Casual;Baixo;4,7;L;Verao;O;Comprida;Natural;Variados;La;Renda;Mistura;1
-415;Boemio;Medio;4,6;M;Primavera;O;Nenhuma;Natural;Sintetico;Sintetico;Faixa;Solido;0
-416;Festa;Medio;4,8;M;Verao;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;1
-417;Boemio;Baixo;4,6;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Pano grosso;Perolas;Solido;0
-418;Festa;Muito alto;4,6;Tamanho unico;Verao;O;Nenhuma;Imperio;Seda artificial;Sem informacao;Buracos;Solido;0
-419;Fofo;Baixo;4,8;M;Primavera;O;Curta;Natural;Sintetico;Sintetico;Laco;Pontos;1
-420;Vintage;Medio;0;M;Primavera;O;Meia;Imperio;Poliester;Sem informacao;Renda;Animal;0
-421;Casual;Medio-Alto;4,9;L;Inverno;O;Curta;Natural;Algodao;Pano grosso;Faixa;Solido;0
-422;Casual;Medio;4,2;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;La;Sem informacao;Riscas;1
-423;Casual;Medio;4,9;M;Verao;O;Curta;Caida;Algodao;Sem informacao;Folhos;Mistura;0
-424;Boemio;Baixo;5;XL;Primavera;V;Tres Quartos;Natural;Sem informacao;Sintetico;Sem informacao;Impressao;1
-425;Casual;Medio;4,7;M;Verao;O;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Pontos;0
-426;Casual;Medio;0;Tamanho unico;Verao;Laco;Meia;Sem informacao;Algodao;Sem informacao;Sem informacao;Sem informacao;0
-427;Casual;Medio;0;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Renda;Floral;0
-428;Sensual;Medio-Alto;0;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Lantejoulas;Solido;0
-429;Sensual;Baixo;4,4;Tamanho unico;Outono;V;Nenhuma;Natural;Algodao;La;Renda;Solido;0
-430;Sensual;Medio;0;Tamanho unico;Primavera;V;Comprida;Natural;Algodao;La;Renda;Solido;1
-431;Intimo;Medio;4,9;XL;Primavera;Bateau;Comprida;Natural;Sem informacao;Sem informacao;Faixa;Solido;0
-432;Casual;Medio;4,7;XL;Verao;V;Meia;Natural;Sem informacao;Pano grosso;Sem informacao;Impressao;1
-433;Casual;Medio;0;Tamanho unico;Outono;V;Comprida;Natural;Algodao;Sem informacao;Renda;Solido;0
-434;Casual;Medio;4,8;M;Verao;V;Comprida;Natural;Sem informacao;Sintetico;Sem informacao;Sem informacao;0
-435;Casual;Medio-Alto;4,9;L;Primavera;Quadrado;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Impressao;0
-436;Festa;Medio;4,7;M;Primavera;O;Meia;Imperio;Sem informacao;Sintetico;Sem informacao;Mistura;0
-437;Sensual;Baixo;4,4;Tamanho unico;Verao;Laco;Nenhuma;Natural;Viscose;Sem informacao;Laco;Solido;0
-438;Boemio;Baixo;4,6;Tamanho unico;Inverno;O;Nenhuma;Imperio;Poliester;Sem informacao;Sem informacao;Mistura;1
-439;Casual;Baixo;4,6;Tamanho unico;Outono;O;Comprida;Natural;Seda artificial;Sem informacao;Renda;Solido;1
-440;Sensual;Baixo;4,5;Tamanho unico;Verao;O;Nenhuma;Imperio;Algodao;Sem informacao;Faixa;Solido;1
-441;Sensual;Baixo;0;Tamanho unico;Inverno;V;Sem informacao;Caida;Algodao;Sem informacao;Renda;Sem informacao;1
-442;Casual;Medio;0;XL;Primavera;Laco;Nenhuma;Natural;Variados;Sem informacao;Renda;Solido;0
-443;Sensual;Medio;0;Tamanho unico;Outono;O;Comprida;Natural;Poliester;Cetim;Buracos;Solido;0
-444;Sensual;Baixo;4,8;Tamanho unico;Primavera;V;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Riscas;1
-445;Intimo;Baixo;4,7;Tamanho unico;Outono;O;Nenhuma;Natural;Sem informacao;Sintetico;Lantejoulas;Solido;0
-446;Sensual;Alto;5;M;Verao;V;Nenhuma;Natural;Variados;Sem informacao;Sem informacao;Riscas;0
-447;Casual;Medio;4,6;L;Verao;Laco;Comprida;Caida;Algodao;Sem informacao;Sem informacao;Mistura;0
-448;Fofo;Medio-Alto;4,9;S;Verao;Laco;Nenhuma;Imperio;Sem informacao;Sem informacao;Laco;Mistura;1
-449;Novo;Medio;4,9;M;Outono;O;Curta;Natural;Poliester;Seda;Nada;Impressao;0
-450;Casual;Baixo;4,3;Tamanho unico;Primavera;O;Comprida;Sem informacao;Sem informacao;Seda;Faixa;Nada;1
-451;Casual;Baixo;4,7;S;Outono;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;0
-452;Casual;Medio;4,8;L;Outono;U;Nenhuma;Natural;Sem informacao;Sem informacao;Faixa;Solido;0
-453;Fofo;Medio;4,5;L;Inverno;V;Nenhuma;Natural;Poliester;Malha;Faixa;Solido;1
-454;Casual;Medio;4,4;Tamanho unico;Verao;O;Muito curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;0
-455;Festa;Medio;0;M;Primavera;O;Nenhuma;Sem informacao;Sem informacao;Seda;Sem informacao;Solido;1
-456;Sensual;Baixo;0;Tamanho unico;Verao;V;Nenhuma;Caida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-457;Casual;Baixo;4,8;L;Verao;V;Tres Quartos;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0
-458;Trabalho;Medio;5;M;Verao;O;sleveless;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;1
-459;Novo;Medio;5;Tamanho unico;Verao;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Impressao;0
-460;Casual;Baixo;4,6;Tamanho unico;Primavera;V;Nenhuma;Natural;Seda;Seda;Em cortina;Solido;0
-461;Casual;Medio;4,5;M;Verao;O;Comprida;Natural;Algodao;Sem informacao;Renda;Solido;0
-462;Casual;Medio;4,5;L;Primavera;U;Tres Quartos;Natural;Sem informacao;Pano;Renda;Animal;1
-463;Casual;Medio;4,5;Tamanho unico;Outono;O;Meia;Natural;Algodao;Seda;Buracos;Solido;1
-464;Fofo;Baixo;0;M;Verao;U;Curta;Sem informacao;Sem informacao;Seda;Faixa;Sem informacao;0
-465;Festa;Medio;4,9;M;Inverno;O;Meia;Sem informacao;Algodao;Sem informacao;Renda;Sem informacao;1
-466;Casual;Medio;4,8;M;Verao;O;Meia;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0
-467;Casual;Baixo;4,4;L;Verao;O;Nenhuma;Natural;Algodao;Seda;Sem informacao;Solido;0
-468;Casual;Medio;4,3;M;Inverno;Bateau;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Solido;0
-469;Fofo;Medio;4,7;L;Verao;O;Nenhuma;Natural;Poliester;Pano grosso;Renda;Solido;0
-470;Sensual;Medio;0;S;Verao;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1
-471;Casual;Baixo;4,4;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;0
-472;Fofo;Alto;4,3;M;Primavera;U;Comprida;Natural;Poliester;Terry;Renda;Solido;1
-473;Trabalho;Medio;4,8;M;Inverno;Botoes;Comprida;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0
-474;Casual;Medio;4,6;M;Primavera;O;Meia;Natural;Poliester;Sem informacao;Renda;Solido;0
-475;Sensual;Baixo;0;Tamanho unico;Verao;V;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Solido;0
-476;Casual;Alto;4,9;XL;Inverno;V;Comprida;Imperio;Algodao;Sem informacao;Lantejoulas;Solido;0
-477;Sensual;Baixo;0;Tamanho unico;Inverno;O;Nenhuma;Natural;Licra;Seda;Buracos;Solido;0
-478;Fofo;Medio;5;M;Outono;V;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;0
-479;Fofo;Baixo;0;Tamanho unico;Primavera;V;Nenhuma;Natural;Seda;La;Renda;Mistura;1
-480;Casual;Baixo;4,4;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Bolsos;Solido;0
-481;Casual;Medio;0;L;Primavera;O;Nenhuma;Natural;Sintetico;Seda;Lantejoulas;Solido;0
-482;Fofo;Medio;4,7;M;Primavera;O;Comprida;Natural;Seda artificial;Seda;Perolas;Solido;1
-483;Casual;Medio;4,6;M;Inverno;V;Meia;Natural;Seda;Seda;Faixa;Solido;1
-484;Casual;Baixo;4,4;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1
-485;Casual;Baixo;5;M;Outono;O;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Impressao;1
-486;Casual;Medio;0;Tamanho unico;Inverno;O;Curta;Natural;Poliester;Seda;Cascata;Solido;0
-487;Sensual;Medio;0;Tamanho unico;Inverno;Bateau;Nenhuma;Natural;Algodao;Pano grosso;Lantejoulas;Solido;1
-488;Casual;Baixo;4,4;M;Verao;O;Meia;Imperio;Sintetico;Seda;Laco;Solido;0
-489;Fofo;Medio;0;L;Verao;O;Nenhuma;Imperio;Algodao;Sem informacao;Renda;Solido;1
-490;Casual;Baixo;4,8;Tamanho unico;Inverno;Laco;Comprida;Natural;Poliester;Seda;Laco;Solido;0
-491;Casual;Medio;5;L;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Sem informacao;1
-492;Fofo;Medio;4,6;M;Primavera;O;Meia;Natural;Acrilico;Seda;Sem informacao;Sem informacao;0
-493;Boemio;Baixo;4,6;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Seda;Nada;Solido;1
-494;Intimo;Medio;4,7;M;Inverno;O;Meia;Natural;Acrilico;Seda;Sem informacao;Riscas;0
-495;Casual;Baixo;4,7;M;Primavera;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Solido;1
-496;Sensual;Baixo;4,3;Tamanho unico;Verao;O;Comprida;Imperio;Algodao;Sem informacao;Sem informacao;Sem informacao;0
-497;Casual;Medio;4,7;M;Verao;V;Comprida;Imperio;Algodao;Sem informacao;Renda;Solido;1
-498;Casual;Medio;4,6;L;Inverno;U;Nenhuma;Imperio;Seda;Pano grosso;Apliques;Impressao;1
-499;Casual;Baixo;4,4;Tamanho unico;Verao;V;Curta;Imperio;Algodao;Veludo;Renda;Solido;0
+;Unnamed: 0;ID;Estilo;Preco;Classificacao;Tamanho;Estacao;Decote;Mangas;Cintura;Material;Tecido;Decoracao;Padrao;Recomendacoes;Tipo;Sexo
+0;0;0;Sensual;Baixo;4,6;M;Verao;O;Nenhuma;Imperio;Sem informacao;Seda;Folhos;Animal;1;camisa;F
+1;1;1;Casual;Baixo;0;L;Verao;O;Petala;Natural;Microfibra;Sem informacao;Folhos;Animal;0;polo;U
+2;2;2;Vintage;Alto;0;L;Outono;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Impressao;0;vestido;M
+3;3;3;Intimo;Medio;4,6;L;Primavera;O;Comprida;Natural;Seda;Seda;Bordado;Impressao;1;cuecas;U
+4;4;4;Fofo;Baixo;4,5;M;Verao;O;Borboleta;Natural;Sintetico;Seda;Laco;Pontos;0;boxers;F
+5;5;5;Boemio;Baixo;0;M;Verao;V;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Impressao;0;camisa;F
+6;6;6;Casual;Medio;0;XL;Verao;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;0;hoodie;U
+7;7;7;Novo;Medio;0;Tamanho unico;Outono;O;Curta;Natural;Poliester;Pano grosso;Renda;Sem informacao;0;boxers;F
+8;8;8;Requintado;Medio;0;Tamanho unico;Primavera;V;Curta;Imperio;Algodao;Pano grosso;Perolas;Solido;1;cuecas;U
+9;9;9;Boemio;Baixo;0;Tamanho unico;Verao;V;Nenhuma;Natural;Nylon;Seda;Sem informacao;Sem informacao;1;casaco;F
+10;10;10;Festa;Medio;5;Tamanho unico;Verao;O;Comprida;Natural;Poliester;Pano grosso;Renda;Solido;0;calcoes;U
+11;11;11;Requintado;Medio;0;Tamanho unico;Primavera;V;Curta;Sem informacao;Nylon;Sem informacao;Sem informacao;Animal;0;casaco;U
+12;12;12;Sensual;Baixo;4,7;M;Inverno;O;Tres Quartos;Sem informacao;Sem informacao;Seda;Renda;Impressao;1;casaco;F
+13;13;13;Vintage;Medio;4,8;M;Verao;O;Curta;Imperio;Algodao;Malha;Sem informacao;Animal;1;cuecas;F
+14;14;14;Casual;Baixo;5;M;Verao;U;Curta;Sem informacao;Algodao;Sem informacao;Faixa;Solido;0;vestido;F
+15;15;15;Casual;Baixo;0;Tamanho unico;Inverno;U;Comprida;Sem informacao;Outros;Outros;Renda;Sem informacao;0;camisa;M
+16;16;16;Fofo;Medio;4,7;L;Primavera;O;Curta;Sem informacao;Algodao;Sem informacao;Faixa;Solido;1;calcoes;F
+17;17;17;Boemio;Medio-Alto;5;Tamanho unico;Outono;O;Comprida;Natural;Sem informacao;Sem informacao;Buracos;Mistura;1;polo;F
+18;18;18;Intimo;Medio;0;M;Inverno;Peter Pan;Tres Quartos;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;casaco;M
+19;19;19;Sensual;Medio;5;M;Outono;O;Nenhuma;Imperio;Seda de leite;Sem informacao;Sem informacao;Sem informacao;1;saia;M
+20;20;20;Sensual;Medio;4,5;L;Outono;O;Comprida;Sem informacao;Algodao;Sem informacao;Perolas;Solido;0;polo;M
+21;21;21;Casual;Baixo;4,3;M;Verao;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0;cuecas;M
+22;22;22;Intimo;Baixo;4;XL;Verao;V;Curta;Natural;Algodao;Sem informacao;Bolsos;Solido;0;meias;F
+23;23;23;Sensual;Medio;4,7;S;Verao;V;Nenhuma;Imperio;Algodao;Sem informacao;Lantejoulas;Solido;1;polo;F
+24;24;24;Sensual;Medio;0;Tamanho unico;Outono;V;Nenhuma;Natural;Poliester;Sem informacao;Renda;Mistura;0;cuecas;F
+25;25;25;Sensual;Medio;0;M;Outono;O;Nenhuma;Imperio;Algodao;Pano grosso;Sem informacao;Impressao;0;boxers;U
+26;26;26;Sensual;Medio;4,7;M;Primavera;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;1;calcas;F
+27;27;27;Casual;Baixo;0;L;Verao;O;Nenhuma;Natural;Algodao;Malha;Sem informacao;Impressao;0;t-shirt;M
+28;28;28;Fofo;Baixo;4,3;Tamanho unico;Outono;O;Nenhuma;Natural;Poliester;Seda;Faixa;Riscas;0;meias;M
+29;29;29;Fofo;Baixo;4,7;M;Primavera;Folhos;Curta;Imperio;Sintetico;Seda;Laco;Pontos;1;vestido;M
+30;30;30;Casual;Medio;4,6;L;Outono;O;Nenhuma;Imperio;Poliester;Seda;Folhos;Solido;0;lingerie;M
+31;31;31;Casual;Baixo;0;M;Primavera;O;Nenhuma;Natural;Seda;Seda;Apliques;Solido;1;casaco;U
+32;32;32;Casual;Medio;4,4;L;Outono;O;Nenhuma;Natural;Linho;Seda;Folhos;Animal;0;t-shirt;F
+33;33;33;Intimo;Medio;4,3;L;Primavera;O;Nenhuma;Imperio;Sem informacao;Sem informacao;Laco;Solido;1;sweatshirt;U
+34;34;34;Festa;Alto;4,7;M;Primavera;O;Tres Quartos;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Impressao;0;camisola;M
+35;35;35;Casual;Baixo;4,6;Tamanho unico;Inverno;U;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;1;t-shirt;M
+36;36;36;Vintage;Medio;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Sem informacao;Seda;Sem informacao;Impressao;1;camisola;M
+37;37;37;Intimo;Medio;0;M;Outono;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0;meias;M
+38;38;38;Festa;Medio;4,6;M;Inverno;O;Nenhuma;Natural;Algodao;Sem informacao;Renda;Solido;1;calcoes;U
+39;39;39;Casual;Medio;4,5;M;Primavera;V;Curta;Imperio;Algodao;Sem informacao;Botao;Solido;1;vestido;M
+40;40;40;Intimo;Medio;5;Tamanho unico;Primavera;V;Nenhuma;Natural;Algodao;Pano grosso;Renda;Solido;1;sweatshirt;U
+41;41;41;Intimo;Baixo;4,4;L;Outono;O;Meia;Natural;Seda artificial;Seda;Faixa;Solido;0;lingerie;M
+42;42;42;Casual;Medio;4,8;M;Inverno;O;Curta;Natural;Licra;Pano grosso;Apliques;Mistura;0;polo;M
+43;43;43;Casual;Baixo;4,8;Tamanho unico;Primavera;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0;hoodie;M
+44;44;44;Vintage;Medio;4,8;M;Inverno;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Mistura;1;boxers;U
+45;45;45;Sensual;Medio;0;M;Inverno;O;Curta;Natural;Sem informacao;Sem informacao;Renda;Solido;0;lingerie;U
+46;46;46;Sensual;Medio;4,8;L;Primavera;V;Tres Quartos;Imperio;Poliester;Sem informacao;Renda;Geometrico;0;camisa;M
+47;47;47;Casual;Medio;0;M;Verao;O;Meia;Natural;Algodao;Seda;Folhos;Pontos;1;calcoes;U
+48;48;48;Casual;Baixo;4,7;M;Verao;O;Nenhuma;Imperio;Seda de leite;Sem informacao;Sem informacao;Solido;0;camisola;U
+49;49;49;Casual;Medio-Alto;0;L;Inverno;U;Comprida;Imperio;Sem informacao;Sem informacao;Sem informacao;Solido;1;meias;F
+50;50;50;Sensual;Baixo;5;Tamanho unico;Verao;V;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Animal;1;calcas;U
+51;51;51;Casual;Baixo;4,3;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Seda de leite;Sem informacao;Sem informacao;Animal;0;calcas;F
+52;52;52;Casual;Medio;0;L;Primavera;O;Meia;Natural;Poliester;Seda;Buracos;Solido;1;calcas;U
+53;53;53;Casual;Medio;4,6;Tamanho unico;Outono;O;Nenhuma;Natural;Poliester;Seda;Faixa;Solido;1;camisa;F
+54;54;54;Sensual;Medio;4,5;M;Primavera;O;Tres Quartos;Natural;Poliester;Sem informacao;Renda;Geometrico;0;boxers;U
+55;55;55;Novo;Medio;0;S;Inverno;Botoes;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;cuecas;M
+56;56;56;Casual;Medio;4,9;S;Inverno;Botoes;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;calcoes;M
+57;57;57;Sensual;Baixo;4,6;L;Outono;O;Nenhuma;Natural;Sem informacao;Sem informacao;Renda;Solido;1;sweatshirt;F
+58;58;58;Boemio;Baixo;4,5;M;Verao;V;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Impressao;1;sweatshirt;M
+59;59;59;Trabalho;Medio;0;M;Outono;Bateau;Nenhuma;Natural;Poliester;Sem informacao;Laco;Mistura;0;calcas;M
+60;60;60;Fofo;Alto;0;M;Primavera;V;Comprida;Natural;Seda artificial;Sem informacao;Sem informacao;Solido;1;camisa;M
+61;61;61;Casual;Medio;0;Tamanho unico;Primavera;O;Curta;Natural;Algodao;Sem informacao;Buracos;Xadrez;0;hoodie;F
+62;62;62;Casual;Medio;5;M;Verao;O;Curta;Imperio;Poliester;Seda;Sem informacao;Animal;0;boxers;F
+63;63;63;Casual;Medio;4,7;M;Primavera;O;Nenhuma;Natural;Sem informacao;Seda;Faixa;Solido;0;camisola;M
+64;64;64;Sensual;Baixo;4;S;Outono;O;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Solido;1;calcoes;U
+65;65;65;Casual;Medio;5;M;Outono;V;Curta;Natural;Algodao;Pano grosso;Perolas;Solido;0;boxers;M
+66;66;66;Casual;Baixo;0;Tamanho unico;Verao;V;Meia;Natural;Seda;Pano grosso;Apliques;Solido;0;camisa;F
+67;67;67;Casual;Medio-Alto;4,5;S;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Mistura;1;saia;F
+68;68;68;Trabalho;Medio;4,8;L;Verao;V;Curta;Natural;Poliester;Sem informacao;Buracos;Solido;0;sweatshirt;U
+69;69;69;Casual;Medio-Alto;0;M;Outono;V;Curta;Imperio;Poliester;Sem informacao;Sem informacao;Solido;0;casaco;M
+70;70;70;Boemio;Medio;5;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Batik;Sem informacao;Impressao;1;calcas;U
+71;71;71;Sensual;Baixo;0;M;Primavera;V;Curta;Natural;Poliester;Cetim;Folhos;Solido;1;meias;U
+72;72;72;Sensual;Medio;4,2;M;Inverno;V;Nenhuma;Natural;Algodao;Flanela;Sem informacao;Solido;0;sweatshirt;M
+73;73;73;Casual;Baixo;4,8;Tamanho unico;Primavera;O;Comprida;Natural;Algodao;La;Renda;Solido;0;hoodie;U
+74;74;74;Casual;Baixo;4,4;S;Outono;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Solido;0;t-shirt;U
+75;75;75;Casual;Baixo;4,7;L;Primavera;O;Curta;Sem informacao;Sintetico;Seda;Laco;Pontos;0;meias;U
+76;76;76;Casual;Medio;5;XL;Inverno;U;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Geometrico;1;calcas;M
+77;77;77;Casual;Baixo;0;Tamanho unico;Primavera;V;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Impressao;0;polo;F
+78;78;78;Casual;Medio;0;Tamanho unico;Primavera;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0;cuecas;F
+79;79;79;Boemio;Muito alto;4,7;Tamanho unico;Inverno;V;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;1;boxers;U
+80;80;80;Casual;Baixo;5;M;Verao;V;Nenhuma;Imperio;Poliester;Seda;Folhos;Animal;0;meias;F
+81;81;81;Festa;Medio;4,7;M;Primavera;V;Nenhuma;Natural;Poliester;Seda;Buracos;Solido;0;hoodie;U
+82;82;82;Sensual;Baixo;5;Tamanho unico;Primavera;O;Comprida;Natural;Algodao;La;Sem informacao;Riscas;0;lingerie;M
+83;83;83;Vintage;Baixo;4,6;M;Verao;O;Curta;Natural;Sem informacao;Seda;Sem informacao;Impressao;0;polo;F
+84;84;84;Casual;Medio;0;Tamanho unico;Inverno;O;Meia;Imperio;Poliester;Seda;Buracos;Solido;0;camisa;F
+85;85;85;Casual;Baixo;4,9;L;Verao;U;Curta;Sem informacao;Sem informacao;Seda;Sem informacao;Mistura;1;polo;U
+86;86;86;Casual;Baixo;0;S;Outono;O;Comprida;Natural;Sem informacao;Sem informacao;Perolas;Solido;1;polo;U
+87;87;87;Sensual;Medio;4;S;Outono;V;Nenhuma;Sem informacao;Seda artificial;Seda;Sem informacao;Mistura;1;camisola;U
+88;88;88;Sensual;Baixo;5;M;Outono;O;Comprida;Natural;Sem informacao;Seda;Renda;Impressao;1;vestido;M
+89;89;89;Intimo;Medio;4,6;M;Inverno;Peter Pan;Tres Quartos;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;0;calcas;F
+90;90;90;Casual;Medio;0;L;Primavera;U;Nenhuma;Natural;Algodao;Sem informacao;Apliques;Mistura;1;casaco;M
+91;91;91;Casual;Medio;4,8;L;Inverno;O;Curta;Natural;Algodao;Sem informacao;Bolsos;Solido;1;camisa;U
+92;92;92;Trabalho;Medio-Alto;0;M;Inverno;Mandarim;Meia;Natural;Algodao;Sem informacao;Faixa;Solido;0;t-shirt;F
+93;93;93;Sensual;Baixo;4,8;M;Primavera;O;Meia;Natural;Seda;Sem informacao;Sem informacao;Solido;0;calcoes;F
+94;94;94;Casual;Medio-Alto;0;S;Primavera;V;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;1;camisola;F
+95;95;95;Casual;Medio-Alto;0;M;Primavera;V;Tres Quartos;Natural;Seda;Seda;Folhos;Solido;1;camisola;F
+96;96;96;Casual;Medio;0;M;Primavera;O;Nenhuma;Natural;Seda;Sem informacao;Sem informacao;Impressao;0;boxers;M
+97;97;97;Casual;Medio;0;Tamanho unico;Inverno;V;Comprida;Natural;Sem informacao;Seda;Folhos;Impressao;0;camisa;M
+98;98;98;Vintage;Baixo;4,8;S;Verao;O;Curta;Natural;Sem informacao;Seda;Folhos;Impressao;0;boxers;F
+99;99;99;Sensual;Baixo;4,8;L;Verao;V;Comprida;Natural;Algodao;Malha;Apliques;Impressao;1;boxers;F
+100;100;100;fashion;Medio;4;Tamanho unico;Verao;Aberto;Comprida;Sem informacao;Algodao;Sem informacao;Lantejoulas;Solido;0;cuecas;M
+101;101;101;Casual;Medio;4,7;L;Verao;V;Curta;Natural;Sem informacao;Sem informacao;Sem informacao;Impressao;1;sweatshirt;M
+102;102;102;Casual;Baixo;0;Tamanho unico;Inverno;O;Meia;Natural;Poliester;La;Sem informacao;Mistura;1;polo;M
+103;103;103;Boemio;Baixo;4,8;Tamanho unico;Verao;O;Curta;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;1;casaco;F
+104;104;104;Trabalho;Medio-Alto;4,6;L;Inverno;Quadrado;Curta;Imperio;Algodao;Sem informacao;Camadas;Solido;0;vestido;M
+105;105;105;Vintage;Medio;4,7;L;Verao;O;Curta;Natural;Algodao;Sem informacao;Botao;Solido;0;hoodie;U
+106;106;106;Fofo;Baixo;4,7;M;Primavera;O;Curta;Imperio;Poliester;Seda;Folhos;Pontos;1;vestido;M
+107;107;107;Casual;Baixo;4,6;Tamanho unico;Outono;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;vestido;M
+108;108;108;Casual;Medio-Alto;0;Tamanho unico;Primavera;O;Nenhuma;Natural;Algodao;Pano grosso;Lantejoulas;Solido;1;meias;M
+109;109;109;Casual;Medio;4,7;L;Outono;O;Meia;Sem informacao;Sem informacao;Sem informacao;Renda;Sem informacao;0;vestido;F
+110;110;110;Sensual;Medio;0;L;Outono;V;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Mistura;0;meias;M
+111;111;111;Casual;Baixo;4,7;Tamanho unico;Inverno;O;Nenhuma;Natural;Algodao;Malha;Sem informacao;Solido;1;calcoes;U
+112;112;112;Casual;Medio;0;M;Outono;O;Curta;Imperio;Poliester;Sem informacao;Apliques;Impressao;0;casaco;F
+113;113;113;Fofo;Medio;4,8;L;Outono;Bateau;Nenhuma;Natural;Sem informacao;Seda;Buracos;Solido;0;casaco;U
+114;114;114;Festa;Medio;5;M;Primavera;O;Meia;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;calcoes;M
+115;115;115;Fofo;Medio;4,3;L;Inverno;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0;hoodie;U
+116;116;116;Casual;Medio;4,5;L;Primavera;O;Curta;Natural;Algodao;Seda;Sem informacao;Mistura;0;camisola;U
+117;117;117;Casual;Baixo;4,7;L;Outono;O;Comprida;Sem informacao;Algodao;Seda;Renda;Impressao;0;camisa;U
+118;118;118;Casual;Baixo;4,5;Tamanho unico;Outono;V;Curta;Natural;Seda;La;Renda;Solido;0;boxers;F
+119;119;119;Sensual;Medio;3,6;L;Inverno;V;Comprida;Natural;Poliester;La;Perolas;Solido;1;saia;F
+120;120;120;Trabalho;Medio;4,8;L;Inverno;V;Curta;Natural;Variados;Pano grosso;Renda;Solido;0;casaco;M
+121;121;121;Vintage;Medio;0;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;polo;U
+122;122;122;Sensual;Baixo;4,6;Tamanho unico;Primavera;O;Comprida;Natural;Sem informacao;Sem informacao;Renda;Leopardo;1;boxers;U
+123;123;123;Sensual;Baixo;0;Tamanho unico;Inverno;V;Nenhuma;Imperio;Algodao;Seda;Sem informacao;Solido;1;t-shirt;M
+124;124;124;Trabalho;Medio;4,6;L;Primavera;O;Curta;Imperio;Algodao;Malha;Sem informacao;Mistura;0;polo;F
+125;125;125;Casual;Medio;4,4;M;Verao;O;Curta;Imperio;Sem informacao;Sem informacao;Renda;Mistura;0;boxers;F
+126;126;126;Fofo;Baixo;4,9;M;Outono;O;Curta;Natural;Sintetico;Seda;Laco;Pontos;0;hoodie;M
+127;127;127;Sensual;Baixo;4,6;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Pano grosso;Perolas;Solido;0;casaco;U
+128;128;128;Festa;Medio;4,4;Tamanho unico;Outono;V;Tres Quartos;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0;sweatshirt;M
+129;129;129;Casual;Medio;0;Tamanho unico;Primavera;O;Curta;Sem informacao;Algodao;Sem informacao;Renda;Sem informacao;1;camisola;M
+130;130;130;Casual;Baixo;0;M;Verao;V;Comprida;Natural;Acrilico;Sem informacao;Renda;Solido;0;saia;U
+131;131;131;Sensual;Medio;4,6;M;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Mistura;1;saia;U
+132;132;132;Trabalho;Medio;4,6;M;Primavera;V;Comprida;Sem informacao;Sem informacao;Seda;Sem informacao;Sem informacao;0;t-shirt;F
+133;133;133;Fofo;Medio;4,7;L;Inverno;O;Nenhuma;Natural;Sintetico;Sem informacao;Renda;Solido;0;camisa;F
+134;134;134;Boemio;Medio;4,7;L;Outono;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Solido;0;lingerie;M
+135;135;135;Fofo;Alto;0;M;Inverno;O;Tres Quartos;Imperio;Seda;Seda;Renda;Mistura;0;polo;U
+136;136;136;Casual;Medio;0;XL;Inverno;O;Curta;Imperio;Poliester;Sem informacao;Botao;Solido;0;camisa;U
+137;137;137;Novo;Medio;4,9;L;Outono;O;Curta;Natural;Poliester;Seda;Sem informacao;Impressao;1;cuecas;M
+138;138;138;Casual;Baixo;4,7;M;Outono;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;0;camisola;M
+139;139;139;Fofo;Medio;4,3;Tamanho unico;Verao;U;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;cuecas;U
+140;140;140;Sensual;Baixo;0;Tamanho unico;Outono;Bateau;Curta;Imperio;Sem informacao;Sem informacao;Buracos;Solido;0;camisa;M
+141;141;141;Fofo;Baixo;4,7;XL;Verao;O;Curta;Imperio;Sintetico;Seda;Laco;Impressao;0;calcas;M
+142;142;142;Sensual;Baixo;4,5;L;Primavera;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Renda;Solido;0;boxers;U
+143;143;143;Casual;Medio;4,7;M;Outono;O;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Animal;1;saia;M
+144;144;144;Casual;Medio;0;L;Primavera;U;Nenhuma;Natural;Algodao;Sem informacao;Renda;Solido;1;camisola;F
+145;145;145;Fofo;Baixo;4,7;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Seda;Sem informacao;Impressao;1;calcoes;F
+146;146;146;Casual;Baixo;4,4;Tamanho unico;Verao;Botoes;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;0;casaco;M
+147;147;147;Casual;Medio;4,8;L;Inverno;V;Curta;Imperio;Poliester;Sem informacao;Folhos;Solido;0;hoodie;F
+148;148;148;Vintage;Medio;4,3;Tamanho unico;Inverno;O;Curta;Sem informacao;Sintetico;Seda;Sem informacao;Impressao;0;t-shirt;M
+149;149;149;Fofo;Baixo;4,5;L;Verao;O;Nenhuma;Natural;Algodao;Seda;Faixa;Solido;1;vestido;F
+150;150;150;Casual;Medio;4,4;M;Verao;Botoes;Nenhuma;Natural;Sintetico;Seda;Sem informacao;Solido;0;camisa;F
+151;151;151;Vintage;Medio-Alto;0;S;Inverno;Botoes;Meia;Natural;Algodao;Pano grosso;Sem informacao;Xadrez;0;calcas;M
+152;152;152;Sensual;Baixo;4,7;Tamanho unico;Verao;Botoes;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;boxers;M
+153;153;153;Vintage;Alto;0;L;Verao;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0;saia;F
+154;154;154;Casual;Baixo;0;Tamanho unico;Primavera;V;Tres Quartos;Sem informacao;Seda;Sem informacao;Renda;Sem informacao;1;casaco;F
+155;155;155;Sensual;Medio;0;S;Outono;Bateau;Curta;Natural;Sem informacao;Sem informacao;Renda;Solido;0;sweatshirt;U
+156;156;156;Casual;Baixo;0;Tamanho unico;Primavera;O;Curta;Natural;Sem informacao;Sem informacao;Buracos;Solido;0;sweatshirt;U
+157;157;157;Fofo;Medio-Alto;5;Tamanho unico;Inverno;O;Nenhuma;Natural;Seda;Sem informacao;Renda;Solido;1;t-shirt;U
+158;158;158;Casual;Baixo;4,7;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Impressao;0;camisola;M
+159;159;159;Sensual;Baixo;4,8;Tamanho unico;Primavera;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Lantejoulas;Solido;1;t-shirt;F
+160;160;160;Casual;Medio;4,5;L;Inverno;O;Curta;Natural;Algodao;Sem informacao;Laco;Mistura;0;t-shirt;U
+161;161;161;Vintage;Medio;0;S;Primavera;O;Comprida;Natural;Variados;Seda;Bordado;Impressao;0;sweatshirt;U
+162;162;162;Casual;Medio;3,7;Tamanho unico;Outono;U;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Solido;1;polo;M
+163;163;163;Vintage;Medio;4,8;L;Inverno;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;calcas;M
+164;164;164;Fofo;Medio;0;XL;Primavera;U;Comprida;Sem informacao;Algodao;La;Apliques;Pontos;1;boxers;F
+165;165;165;Casual;Medio;0;L;Inverno;Aberto;Curta;Natural;Variados;Poplin;Apliques;Solido;1;vestido;F
+166;166;166;Sensual;Medio-Alto;5;M;Inverno;O;Nenhuma;Imperio;Poliester;Sem informacao;Laco;Solido;0;meias;F
+167;167;167;Intimo;Medio;4,9;Tamanho unico;Verao;Bateau;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0;vestido;M
+168;168;168;Casual;Alto;4,9;S;Primavera;O;Tres Quartos;Natural;Sem informacao;Sem informacao;Sem informacao;Pontos;1;t-shirt;F
+169;169;169;Intimo;Medio;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Variados;Sem informacao;Faixa;Solido;0;hoodie;U
+170;170;170;Casual;Baixo;4,5;Tamanho unico;Inverno;O;Comprida;Natural;Variados;La;Apliques;Solido;0;meias;F
+171;171;171;Casual;Baixo;4,8;XL;Verao;O;Curta;Imperio;Variados;Seda;Faixa;Geometrico;0;camisola;M
+172;172;172;Sensual;Medio-Alto;4,6;L;Verao;O;Curta;Natural;Spandex;Malha;Renda;Solido;0;boxers;F
+173;173;173;Casual;Medio;4,5;M;Inverno;V;Nenhuma;Natural;Sem informacao;Seda;Botao;Riscas;0;vestido;U
+174;174;174;Trabalho;Medio;0;S;Outono;O;Nenhuma;Natural;Linho;Sem informacao;Sem informacao;Mistura;0;camisa;F
+175;175;175;Casual;Baixo;0;L;Inverno;O;Nenhuma;Imperio;Poliester;Sem informacao;Sem informacao;Leopardo;0;sweatshirt;F
+176;176;176;Fofo;Baixo;5;L;Inverno;O;Tres Quartos;Natural;Seda;Seda;Faixa;Impressao;0;sweatshirt;U
+177;177;177;Intimo;Medio;4,3;M;Primavera;O;Comprida;Natural;Variados;La;Lantejoulas;Mistura;1;casaco;M
+178;178;178;Sensual;Baixo;4,4;Tamanho unico;Outono;O;Comprida;Imperio;Algodao;Sem informacao;Sem informacao;Leopardo;0;t-shirt;F
+179;179;179;Fofo;Baixo;0;Tamanho unico;Verao;Peter Pan;Curta;Imperio;Algodao;Pano grosso;Apliques;Impressao;0;polo;M
+180;180;180;Casual;Medio;4,5;Tamanho unico;Verao;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;meias;F
+181;181;181;Sensual;Baixo;4,7;M;Inverno;Bateau;Nenhuma;Sem informacao;Nylon;Sem informacao;Faixa;Solido;1;sweatshirt;F
+182;182;182;Casual;Baixo;4,7;Tamanho unico;Primavera;O;Nenhuma;Imperio;Algodao;Seda;Sem informacao;Floral;0;t-shirt;M
+183;183;183;Casual;Medio-Alto;4,8;M;Inverno;Peter Pan;Curta;Natural;Poliester;Seda;Renda;Mistura;0;casaco;M
+184;184;184;Sensual;Baixo;4,3;Tamanho unico;Inverno;V;Nenhuma;Natural;Seda;La;Renda;Solido;1;hoodie;U
+185;185;185;Boemio;Medio;0;L;Inverno;Botoes;Comprida;Natural;Variados;Sem informacao;Sem informacao;Solido;0;sweatshirt;U
+186;186;186;Casual;Baixo;0;Tamanho unico;Sem informacao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;polo;U
+187;187;187;Fofo;Medio-Alto;4,8;Tamanho unico;Primavera;Bateau;Nenhuma;Natural;Poliester;Seda;Faixa;Solido;1;casaco;M
+188;188;188;Sensual;Medio;0;S;Outono;V;Nenhuma;Imperio;Algodao;Sem informacao;Perolas;Solido;0;polo;F
+189;189;189;Casual;Baixo;4,6;S;Primavera;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;casaco;F
+190;190;190;Vintage;Medio-Alto;4,7;Tamanho unico;Primavera;Botoes;Nenhuma;Natural;Variados;Sem informacao;Renda;Solido;1;calcas;M
+191;191;191;Trabalho;Baixo;4,7;Tamanho unico;Verao;O;Comprida;Imperio;Algodao;Sem informacao;Sem informacao;Solido;0;calcas;F
+192;192;192;Fofo;Medio;4,8;M;Verao;O;Curta;Natural;Algodao;Sem informacao;Rivet;Solido;0;hoodie;M
+193;193;193;Fofo;Medio;0;M;Verao;O;Curta;Natural;Algodao;Seda;Sem informacao;Impressao;0;t-shirt;F
+194;194;194;Casual;Medio;4,7;M;Inverno;O;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;0;casaco;U
+195;195;195;Casual;Baixo;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Apliques;Solido;1;hoodie;M
+196;196;196;Festa;Medio;5;Tamanho unico;Verao;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;boxers;M
+197;197;197;Casual;Medio;0;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Seda;Sem informacao;Mistura;0;vestido;M
+198;198;198;Sensual;Medio;5;L;Inverno;O;Tres Quartos;Natural;Poliester;Sem informacao;Renda;Geometrico;0;meias;M
+199;199;199;Sensual;Medio;4,8;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Bordado;Solido;0;hoodie;U
+200;200;200;Casual;Medio;4,7;S;Verao;V;Curta;Natural;Algodao;Sem informacao;Sem informacao;Pontos;0;calcas;F
+201;201;201;Casual;Medio;4,1;M;Outono;V;Comprida;Sem informacao;Sem informacao;Seda;Faixa;Sem informacao;1;sweatshirt;M
+202;202;202;Casual;Medio;5;XL;Outono;O;Curta;Natural;Sintetico;Seda;Sem informacao;Sem informacao;0;calcoes;F
+203;203;203;Sensual;Medio;5;M;Verao;V;Nenhuma;Imperio;Algodao;Sem informacao;Lantejoulas;Solido;1;hoodie;M
+204;204;204;Trabalho;Medio;4,6;L;Verao;Bateau;Curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;0;saia;M
+205;205;205;Casual;Medio;4,5;M;Verao;Peter Pan;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;lingerie;F
+206;206;206;Vintage;Medio;4,5;L;Outono;O;Nenhuma;Imperio;Sem informacao;La;Sem informacao;Solido;0;hoodie;U
+207;207;207;Casual;Medio;0;M;Verao;O;Tres Quartos;Natural;Nylon;Pano grosso;Sem informacao;Solido;1;calcas;U
+208;208;208;Fofo;Medio;4,7;L;Verao;O;Nenhuma;Natural;Algodao;La;Sem informacao;Impressao;0;meias;F
+209;209;209;Boemio;Baixo;4,7;Tamanho unico;Inverno;O;Curta;Natural;Nylon;Sem informacao;Faixa;Impressao;0;cuecas;M
+210;210;210;Casual;Baixo;5;Tamanho unico;Primavera;Bateau;Nenhuma;Imperio;Spandex;Sem informacao;Sem informacao;Riscas;1;sweatshirt;F
+211;211;211;Casual;Medio;5;M;Inverno;O;Nenhuma;Natural;Sem informacao;Seda;Faixa;Solido;1;hoodie;F
+212;212;212;Casual;Medio;4,3;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;La;Sem informacao;Riscas;0;sweatshirt;U
+213;213;213;Trabalho;Baixo;4,5;M;Inverno;V;Tres Quartos;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Mistura;0;camisola;M
+214;214;214;Casual;Medio;4,3;S;Primavera;U;Comprida;Natural;Algodao;Sem informacao;Renda;Mistura;1;vestido;F
+215;215;215;Casual;Medio;4,4;L;Outono;O;Meia;Natural;Sem informacao;Pano;Renda;Animal;0;hoodie;U
+216;216;216;Sensual;Baixo;4,3;M;Outono;Aberto;Curta;Natural;Renda;Sem informacao;Renda;Impressao;0;casaco;U
+217;217;217;Casual;Baixo;4,6;Tamanho unico;Verao;O;Comprida;Natural;Algodao;La;Renda;Solido;1;lingerie;F
+218;218;218;Casual;Baixo;4,6;L;Inverno;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Sem informacao;0;lingerie;M
+219;219;219;Casual;Medio;4,6;M;Primavera;O;Nenhuma;Natural;Sem informacao;Seda;Faixa;Solido;1;camisola;M
+220;220;220;Casual;Baixo;0;Tamanho unico;Outono;Peter Pan;Tres Quartos;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;polo;F
+221;221;221;Casual;Medio;4,7;S;Primavera;O;Meia;Imperio;Sem informacao;Seda;Sem informacao;Sem informacao;1;lingerie;F
+222;222;222;Casual;Medio;0;S;Verao;O;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Solido;0;vestido;F
+223;223;223;Casual;Baixo;4,8;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Impressao;1;sweatshirt;U
+224;224;224;Casual;Medio;5;S;Inverno;O;Nenhuma;Imperio;Poliester;Seda;Sem informacao;Xadrez;0;saia;M
+225;225;225;Sensual;Muito alto;0;Tamanho unico;Inverno;V;Nenhuma;Natural;Poliester;Malha;Sem informacao;Solido;0;saia;M
+226;226;226;Casual;Baixo;4,4;Tamanho unico;Verao;O;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Impressao;0;camisa;M
+227;227;227;Casual;Medio;4,8;M;Outono;V;Curta;Sem informacao;Sem informacao;Seda;Bordado;Impressao;1;boxers;U
+228;228;228;Casual;Medio;5;Tamanho unico;Verao;V;Nenhuma;Sem informacao;Seda artificial;Sem informacao;Sem informacao;Mistura;0;t-shirt;F
+229;229;229;Sensual;Baixo;4,8;M;Outono;V;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Impressao;1;lingerie;M
+230;230;230;Casual;Medio;4,6;Tamanho unico;Inverno;V;Comprida;Natural;Algodao;Flanela;Sem informacao;Riscas;0;boxers;F
+231;231;231;Casual;Medio;4,6;M;Inverno;V;Comprida;Natural;Sintetico;Seda;Sem informacao;Sem informacao;0;polo;F
+232;232;232;Casual;Baixo;5;S;Primavera;O;Nenhuma;Natural;Sintetico;Sem informacao;Sem informacao;Impressao;0;vestido;M
+233;233;233;Fofo;Medio;0;M;Inverno;O;Curta;Natural;Poliester;Seda;Faixa;Solido;0;boxers;F
+234;234;234;Casual;Baixo;4,8;Tamanho unico;Primavera;O;Nenhuma;Sem informacao;Sintetico;Seda;Sem informacao;Impressao;1;cuecas;F
+235;235;235;Casual;Medio;4,6;M;Outono;O;Curta;Imperio;Poliester;Sem informacao;Apliques;Pontos;0;meias;M
+236;236;236;Boemio;Medio;5;M;Primavera;Bateau;Nenhuma;Imperio;Sem informacao;Seda;Folhos;Solido;1;camisa;F
+237;237;237;Casual;Baixo;4,9;Tamanho unico;Inverno;O;Nenhuma;Imperio;Seda;Sem informacao;Faixa;Impressao;1;meias;M
+238;238;238;Casual;Medio;4,7;L;Verao;O;Nenhuma;Natural;Seda;Seda;Perolas;Solido;0;casaco;F
+239;239;239;Casual;Medio-Alto;4,6;M;Inverno;O;Comprida;Natural;Caxemira;Sem informacao;Sem informacao;Solido;1;cuecas;U
+240;240;240;Casual;Medio;4,7;M;Inverno;V;Nenhuma;Imperio;Poliester;Seda;Apliques;Impressao;0;boxers;F
+241;241;241;Sensual;Medio;4,7;M;Inverno;V;Nenhuma;Natural;Poliester;Pano grosso;Sem informacao;Mistura;0;calcoes;U
+242;242;242;Casual;Medio;3,5;M;Inverno;V;Curta;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0;t-shirt;U
+243;243;243;Casual;Medio;4,8;M;Inverno;O;Tres Quartos;Natural;Sem informacao;Sem informacao;Sem informacao;Impressao;1;camisola;M
+244;244;244;Casual;Medio;0;M;Inverno;O;Comprida;Natural;Algodao;Malha;Penas;Solido;1;boxers;M
+245;245;245;Casual;Baixo;4,6;M;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Faixa;Riscas;0;lingerie;M
+246;246;246;Casual;Medio;4,7;L;Primavera;V;Meia;Natural;Sem informacao;Pano grosso;Sem informacao;Impressao;1;vestido;M
+247;247;247;Casual;Baixo;4,5;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Botao;Solido;0;calcas;U
+248;248;248;Casual;Medio;4,7;M;Verao;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Personagem;0;meias;M
+249;249;249;Casual;Baixo;4,5;M;Inverno;O;Curta;Natural;Sintetico;Seda;Sem informacao;Solido;0;hoodie;M
+250;250;250;Casual;Baixo;4,7;S;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;cuecas;U
+251;251;251;Fofo;Baixo;0;Tamanho unico;Verao;U;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Impressao;0;t-shirt;M
+252;252;252;Festa;Muito alto;5;M;Primavera;Bateau;Nenhuma;Natural;Sintetico;Seda;Flores;Sem informacao;1;lingerie;F
+253;253;253;Casual;Medio;4,9;M;Outono;V;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;1;camisa;F
+254;254;254;Festa;Muito alto;0;L;Inverno;V;Nenhuma;Natural;Poliester;Tule;Perolas;Sem informacao;0;vestido;U
+255;255;255;Festa;Muito alto;0;M;Inverno;V;Muito curta;Sem informacao;Sem informacao;Seda;Renda;Sem informacao;0;lingerie;F
+256;256;256;Casual;Baixo;4,4;M;Inverno;V;Botoes;Sem informacao;Algodao;Sem informacao;Sem informacao;Sem informacao;1;calcoes;U
+257;257;257;Festa;Muito alto;0;M;Primavera;V;Tres Quartos;Natural;Licra;Cetim;Apliques;Sem informacao;1;camisola;F
+258;258;258;Festa;Alto;0;M;Inverno;Coracao;Nenhuma;Natural;Sem informacao;Sem informacao;Perolas;Sem informacao;0;meias;F
+259;259;259;Festa;Alto;0;M;Primavera;Coracao;Nenhuma;Sem informacao;Nylon;Sem informacao;Sem informacao;Sem informacao;0;calcoes;F
+260;260;260;Festa;Medio;5;M;Inverno;O;Muito curta;Imperio;Poliester;Sem informacao;Renda;Sem informacao;1;polo;M
+261;261;261;Festa;Alto;4,7;M;Inverno;Coracao;Nenhuma;Natural;Sem informacao;Seda;Flores;Sem informacao;0;lingerie;F
+262;262;262;Festa;Sem informacao;4,8;Tamanho unico;Inverno;O;Nenhuma;Imperio;Sem informacao;Sem informacao;Bordado;Sem informacao;1;camisa;M
+263;263;263;Festa;Sem informacao;4,5;L;Verao;Sem informacao;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;polo;F
+264;264;264;Festa;Muito alto;4,9;M;Primavera;Coracao;Nenhuma;Imperio;Sem informacao;Seda;Perolas;Sem informacao;1;camisa;U
+265;265;265;Festa;Alto;4,6;M;Inverno;Coracao;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Sem informacao;0;polo;M
+266;266;266;Festa;Medio;5;M;Primavera;Coracao;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Sem informacao;1;camisola;M
+267;267;267;Festa;Muito alto;4,8;L;Primavera;Coracao;Nenhuma;Imperio;Microfibra;Organza;Perolas;Sem informacao;1;calcoes;U
+268;268;268;Festa;Muito alto;0;M;Inverno;Coracao;Nenhuma;Natural;Poliester;Seda;Perolas;Sem informacao;1;saia;M
+269;269;269;Festa;Alto;4,6;L;Primavera;Bateau;Nenhuma;Imperio;Seda;Seda;Perolas;Sem informacao;0;camisa;M
+270;270;270;Festa;Medio;4,8;L;Sem informacao;Coracao;Nenhuma;Imperio;Sem informacao;Sem informacao;Prega;Sem informacao;1;cuecas;F
+271;271;271;Festa;Medio-Alto;4,6;S;Inverno;Colher;Curta;Imperio;Sem informacao;Sem informacao;Cristal;Sem informacao;0;saia;U
+272;272;272;Festa;Muito alto;4,9;M;Primavera;Coracao;Nenhuma;Natural;Seda;Seda;Perolas;Sem informacao;1;sweatshirt;M
+273;273;273;Festa;Medio-Alto;4,8;S;Primavera;V;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;sweatshirt;F
+274;274;274;Festa;Muito alto;4,2;L;Inverno;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Renda;Sem informacao;1;cuecas;U
+275;275;275;Casual;Baixo;4,4;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;calcas;M
+276;276;276;Festa;Muito alto;4,1;M;Inverno;Colher;Curta;Natural;Algodao;Renda;Apliques;Sem informacao;1;meias;M
+277;277;277;Festa;Muito alto;0;M;Inverno;O;Comprida;Natural;Sem informacao;Sem informacao;Penas;Sem informacao;1;hoodie;M
+278;278;278;Casual;Alto;4,6;M;Verao;Coracao;Nenhuma;Imperio;Sem informacao;Sem informacao;Perolas;Sem informacao;1;hoodie;U
+279;279;279;Festa;Medio;4,7;Tamanho unico;Inverno;O;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;0;boxers;F
+280;280;280;Festa;Muito alto;4,7;L;Inverno;Bateau;Nenhuma;Imperio;Viscose;Seda;Perolas;Sem informacao;1;t-shirt;F
+281;281;281;Festa;Muito alto;4,5;M;Primavera;V;Muito curta;Sem informacao;Sem informacao;Sem informacao;Renda;Sem informacao;1;camisola;F
+282;282;282;Festa;Medio;4,7;Tamanho unico;Primavera;Coracao;Nenhuma;Imperio;Seda artificial;Seda;Perolas;Solido;1;boxers;M
+283;283;283;Festa;Alto;4,8;M;Verao;Coracao;Nenhuma;Princesa;Sem informacao;Cetim;Sem informacao;Sem informacao;1;meias;U
+284;284;284;Festa;Alto;4,6;M;Verao;Bateau;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Sem informacao;1;t-shirt;F
+285;285;285;Festa;Medio-Alto;4,7;M;Inverno;O;Nenhuma;Imperio;Algodao;Seda;Botao;Sem informacao;1;hoodie;M
+286;286;286;Fofo;Medio;4,4;Tamanho unico;Primavera;Coracao;Nenhuma;Imperio;Spandex;Tule;Dobras;Solido;1;calcas;U
+287;287;287;Festa;Medio;5;M;Primavera;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;hoodie;F
+288;288;288;Festa;Muito alto;4,8;Tamanho unico;Primavera;Coracao;Nenhuma;Natural;Poliester;Seda;Perolas;Sem informacao;1;boxers;U
+289;289;289;Festa;Medio-Alto;4,8;M;Primavera;O;Nenhuma;Natural;Seda;Seda;Cristal;Sem informacao;1;vestido;U
+290;290;290;Festa;Muito alto;4,9;L;Primavera;Bateau;Nenhuma;Sem informacao;Sem informacao;Seda;Flores;Sem informacao;1;calcas;M
+291;291;291;Festa;Medio-Alto;0;Tamanho unico;Inverno;V;Curta;Imperio;Sem informacao;Seda;Renda;Sem informacao;1;camisola;M
+292;292;292;Trabalho;Medio;5;Tamanho unico;Inverno;O;Meia;Sem informacao;Microfibra;Sem informacao;Sem informacao;Sem informacao;0;calcoes;M
+293;293;293;Festa;Muito alto;4,9;M;Primavera;V;Nenhuma;Imperio;Sem informacao;Cetim;Perolas;Sem informacao;1;calcoes;U
+294;294;294;Casual;Alto;5;Tamanho unico;Verao;V;Nenhuma;Natural;Nylon;Sem informacao;Sem informacao;Sem informacao;1;meias;F
+295;295;295;Casual;Muito alto;0;S;Primavera;O;Comprida;Sem informacao;Sem informacao;Seda;Apliques;Sem informacao;0;calcoes;U
+296;296;296;Casual;Medio-Alto;4,7;M;Primavera;O;Nenhuma;Natural;Algodao;Sem informacao;Laco;Sem informacao;1;t-shirt;M
+297;297;297;Festa;Medio;0;M;Primavera;V;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;boxers;U
+298;298;298;Casual;Medio;4,4;Tamanho unico;Verao;Bateau;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Sem informacao;1;calcas;F
+299;299;299;Casual;Muito alto;4,6;M;Inverno;O;Curta;Natural;Sem informacao;Sem informacao;Flores;Sem informacao;1;saia;U
+300;300;300;Casual;Baixo;4,4;Tamanho unico;Inverno;Alcas;Nenhuma;Natural;Sem informacao;Sem informacao;Em cortina;Sem informacao;1;calcoes;U
+301;301;301;Festa;Alto;4,5;M;Inverno;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;t-shirt;F
+302;302;302;Casual;Medio;4,8;Tamanho unico;Verao;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;sweatshirt;M
+303;303;303;Sensual;Medio;5;M;Verao;O;Nenhuma;Natural;Poliester;Pano grosso;Rivet;Sem informacao;0;hoodie;F
+304;304;304;Vintage;Medio;4,9;Tamanho unico;Verao;O;Botoes;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;t-shirt;U
+305;305;305;Vintage;Medio;4,7;S;Verao;Botoes;Curta;Imperio;Algodao;Sem informacao;Sem informacao;Sem informacao;0;camisola;M
+306;306;306;Trabalho;Medio;4,9;M;Verao;Quadrado;Meia;Imperio;Poliester;Cetim;Faixa;Sem informacao;0;calcas;F
+307;307;307;Casual;Baixo;4,7;L;Primavera;O;Curta;Natural;Sintetico;Seda;Sem informacao;Sem informacao;0;calcas;U
+308;308;308;Casual;Medio;4,8;L;Outono;O;Curta;Natural;Caxemira;Sem informacao;Sem informacao;Sem informacao;0;cuecas;M
+309;309;309;Sensual;Baixo;4,7;Tamanho unico;Primavera;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Lantejoulas;Sem informacao;1;cuecas;U
+310;310;310;Casual;Medio;0;S;Inverno;Bateau;Meia;Natural;Nylon;Pano grosso;Sem informacao;Sem informacao;0;boxers;F
+311;311;311;Casual;Medio;4,2;S;Inverno;V;Nenhuma;Imperio;Outros;Seda;Buracos;Mistura;0;casaco;M
+312;312;312;Novo;Medio;0;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Cetim;Buracos;Solido;0;lingerie;F
+313;313;313;Casual;Baixo;4,3;Tamanho unico;Verao;Sem costas;Nenhuma;Imperio;Sintetico;Seda;Cristal;Sem informacao;0;casaco;U
+314;314;314;Casual;Medio;3,7;M;Verao;U;Nenhuma;Natural;Linho;Sem informacao;Sem informacao;Sem informacao;0;lingerie;M
+315;315;315;Casual;Medio;5;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Pano grosso;Renda;Sem informacao;1;saia;F
+316;316;316;Sensual;Baixo;5;Tamanho unico;Primavera;V;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Sem informacao;0;meias;F
+317;317;317;Fofo;Baixo;0;Tamanho unico;Inverno;O;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Sem informacao;0;boxers;U
+318;318;318;Vintage;Medio;4,8;M;Verao;V;Comprida;Natural;Seda artificial;Poplin;Sem informacao;Sem informacao;1;hoodie;U
+319;319;319;Boemio;Medio;4,8;L;Inverno;O;Nenhuma;Natural;Poliester;Seda;Sem informacao;Solido;0;casaco;F
+320;320;320;Boemio;Medio;0;Tamanho unico;Primavera;O;Nenhuma;Natural;Seda artificial;Seda;Sem informacao;Riscas;1;lingerie;F
+321;321;321;Sensual;Medio;4,5;M;Verao;Laco;Nenhuma;Sem informacao;Algodao;Seda;Sem informacao;Solido;0;cuecas;U
+322;322;322;Novo;Medio-Alto;4,2;M;Inverno;O;Meia;Natural;Poliester;Seda;Buracos;Animal;1;casaco;F
+323;323;323;Casual;Baixo;5;Tamanho unico;Primavera;V;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;hoodie;M
+324;324;324;Casual;Medio;5;L;Inverno;O;Tres Quartos;Natural;Poliester;Sem informacao;Apliques;Solido;0;polo;M
+325;325;325;Casual;Baixo;4,8;M;Inverno;V;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Impressao;0;camisa;U
+326;326;326;Boemio;Baixo;5;Tamanho unico;Primavera;O;Curta;Natural;Nylon;Malha;Faixa;Impressao;1;t-shirt;F
+327;327;327;Casual;Baixo;5;Tamanho unico;Primavera;Laco;Nenhuma;Natural;Seda;Seda;Apliques;Impressao;0;calcas;M
+328;328;328;Casual;Baixo;5;M;Primavera;O;Nenhuma;Natural;Sintetico;Seda;Sem informacao;Solido;1;vestido;F
+329;329;329;Fofo;Medio;4,3;M;Verao;Sem informacao;Sem informacao;Natural;Algodao;Seda;Sem informacao;Solido;0;t-shirt;M
+330;330;330;Novo;Medio;0;Tamanho unico;Inverno;O;Curta;Natural;Poliester;Pano grosso;Renda;Sem informacao;1;vestido;M
+331;331;331;Fofo;Baixo;0;L;Primavera;O;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;calcas;F
+332;332;332;Sensual;Baixo;4,8;Tamanho unico;Primavera;Bateau;Nenhuma;Natural;Algodao;Pano grosso;Lantejoulas;Solido;0;lingerie;F
+333;333;333;Sensual;Baixo;4,8;Tamanho unico;Verao;Bateau;Nenhuma;Imperio;Seda;Sem informacao;Renda;Solido;0;calcas;M
+334;334;334;Casual;Baixo;4,4;M;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Solido;0;meias;U
+335;335;335;Casual;Medio;4,5;M;Inverno;O;Nenhuma;Natural;Poliester;Seda;Dobras;Riscas;0;calcoes;U
+336;336;336;Casual;Baixo;4,7;S;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;vestido;M
+337;337;337;Casual;Baixo;4,4;Tamanho unico;Primavera;O;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Impressao;0;camisola;M
+338;338;338;Trabalho;Medio;4,9;M;Inverno;Bateau;Curta;Natural;Poliester;Pano grosso;Folhos;Solido;0;sweatshirt;F
+339;339;339;Fofo;Medio-Alto;4,6;Tamanho unico;Primavera;O;Curta;Natural;Sintetico;Sem informacao;Buracos;Solido;1;sweatshirt;F
+340;340;340;Casual;Baixo;4,7;Tamanho unico;Primavera;O;Meia;Natural;Seda;Seda;Faixa;Impressao;0;camisola;F
+341;341;341;Casual;Baixo;4,7;M;Inverno;O;Comprida;Imperio;Poliester;Seda;Sem informacao;Impressao;1;hoodie;F
+342;342;342;Casual;Medio;4,8;M;Primavera;O;Nenhuma;Natural;Algodao;Seda;Buracos;Impressao;0;calcoes;M
+343;343;343;Sensual;Baixo;4,8;L;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;calcoes;M
+344;344;344;Casual;Medio;4,3;M;Primavera;O;Meia;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;lingerie;F
+345;345;345;Casual;Medio;4,7;XL;Inverno;V;Curta;Imperio;Seda de leite;Sem informacao;Sem informacao;Impressao;0;calcas;F
+346;346;346;Casual;Baixo;0;L;Inverno;V;Comprida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Solido;0;boxers;F
+347;347;347;Sensual;Medio;4,7;M;Outono;Bateau;Nenhuma;Natural;Nylon;Sem informacao;Rivet;Solido;0;calcoes;U
+348;348;348;Casual;Baixo;4,7;Tamanho unico;Inverno;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;sweatshirt;U
+349;349;349;Casual;Alto;0;L;Inverno;V;Comprida;Sem informacao;Poliester;Sem informacao;Sem informacao;Solido;0;camisa;M
+350;350;350;Casual;Baixo;4,7;L;Verao;O;Nenhuma;Natural;Seda;La;Renda;Mistura;0;calcoes;F
+351;351;351;Casual;Medio;4,7;Tamanho unico;Verao;V;Comprida;Natural;Algodao;Sem informacao;Faixa;Solido;0;vestido;U
+352;352;352;Casual;Medio;0;Tamanho unico;Inverno;V;Comprida;Sem informacao;Caxemira;Sem informacao;Sem informacao;Solido;1;vestido;M
+353;353;353;Casual;Baixo;4,7;Tamanho unico;Verao;O;Muito curta;Natural;Sintetico;Seda;Sem informacao;Impressao;1;vestido;U
+354;354;354;Casual;Medio;4,7;M;Verao;O;Tres Quartos;Sem informacao;Sintetico;Seda;Dobras;Solido;0;hoodie;M
+355;355;355;Sensual;Baixo;4,5;Tamanho unico;Verao;Bateau;Nenhuma;Sem informacao;Poliester;Veludo;Sem informacao;Sem informacao;0;sweatshirt;M
+356;356;356;Vintage;Baixo;4;Tamanho unico;Verao;Botoes;Curta;Natural;Algodao;La;Buracos;Solido;0;calcas;F
+357;357;357;Sensual;Baixo;4,7;Tamanho unico;Verao;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;t-shirt;M
+358;358;358;Boemio;Baixo;5;Tamanho unico;Verao;O;Nenhuma;Imperio;Algodao;Pano grosso;Pendao;Impressao;1;vestido;F
+359;359;359;Casual;Baixo;4,7;S;Inverno;O;Nenhuma;Natural;Malha;Sem informacao;Renda;Solido;0;lingerie;M
+360;360;360;Sensual;Medio;4,5;S;Inverno;V;Nenhuma;Sem informacao;Poliester;Sem informacao;Sem informacao;Sem informacao;0;t-shirt;U
+361;361;361;Fofo;Medio;4,7;M;Verao;O;Nenhuma;Natural;Sintetico;Sem informacao;Faixa;Trancas;0;calcas;M
+362;362;362;Vintage;Baixo;0;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Batik;Sem informacao;Impressao;1;camisa;F
+363;363;363;Casual;Medio;4,1;L;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Sem informacao;1;sweatshirt;U
+364;364;364;Casual;Medio;4,2;M;Inverno;V;Comprida;Imperio;Poliester;Sem informacao;Renda;Mistura;1;hoodie;U
+365;365;365;Intimo;Medio;4,8;Tamanho unico;Inverno;V;Meia;Natural;Poliester;Pano grosso;Sem informacao;Solido;0;vestido;U
+366;366;366;Intimo;Medio;4,9;Tamanho unico;Inverno;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0;lingerie;M
+367;367;367;Sensual;Medio;4,8;S;Inverno;V;Nenhuma;Imperio;Poliester;Seda;Renda;Solido;0;t-shirt;M
+368;368;368;Casual;Medio;4,7;L;Inverno;O;Nenhuma;Natural;Poliester;Seda;Sem informacao;Mistura;0;boxers;M
+369;369;369;Vintage;Medio;4,7;M;Verao;V;Curta;Natural;Seda artificial;Sem informacao;Perolas;Impressao;0;t-shirt;M
+370;370;370;Casual;Medio;4,8;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Seda;Faixa;Solido;0;camisola;F
+371;371;371;Sensual;Baixo;4,7;M;Inverno;V;Nenhuma;Natural;Poliester;Sem informacao;Sem informacao;Riscas;0;sweatshirt;F
+372;372;372;Casual;Medio;5;s;Primavera;Botoes;Comprida;Imperio;Algodao;La;Sem informacao;Solido;0;boxers;U
+373;373;373;Casual;Baixo;1;M;Primavera;O;Meia;Sem informacao;Sem informacao;Seda;Sem informacao;Sem informacao;0;cuecas;F
+374;374;374;Sensual;Medio;4,1;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Sem informacao;Renda;Sem informacao;1;vestido;F
+375;375;375;Casual;Baixo;4;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Pano grosso;Buracos;Impressao;0;polo;F
+376;376;376;Trabalho;Medio;4,7;M;Primavera;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;casaco;U
+377;377;377;Fofo;Medio;4,6;Tamanho unico;Primavera;V;Comprida;Natural;Algodao;Seda;Sem informacao;Solido;1;polo;M
+378;378;378;Casual;Baixo;5;M;Primavera;O;Nenhuma;Natural;Spandex;Malha;Sem informacao;Impressao;0;cuecas;U
+379;379;379;Casual;Medio;4,7;M;Outono;V;Nenhuma;Natural;Sem informacao;Seda;Sem informacao;Riscas;1;saia;U
+380;380;380;Casual;Baixo;4,6;Tamanho unico;Inverno;O;Comprida;Natural;Poliester;Sem informacao;Apliques;Solido;0;calcas;U
+381;381;381;Casual;Medio;4,5;L;Verao;O;Curta;Natural;Algodao;Malha;Bolsos;Solido;0;t-shirt;U
+382;382;382;Fofo;Medio;4,6;M;Outono;O;Tres Quartos;Natural;Seda;Seda;Faixa;Impressao;0;saia;F
+383;383;383;Casual;Baixo;4,6;Tamanho unico;Outono;O;Meia;Natural;Sintetico;Seda;Sem informacao;Leopardo;1;polo;U
+384;384;384;Casual;Baixo;4,7;L;Verao;Sem informacao;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;1;camisa;U
+385;385;385;Sensual;Baixo;0;L;Verao;O;Nenhuma;Imperio;sill;Sem informacao;Sem informacao;Riscas;0;meias;F
+386;386;386;Boemio;Medio;4;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Seda;Folhos;Riscas;0;vestido;U
+387;387;387;Casual;Baixo;4,7;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;boxers;M
+388;388;388;Trabalho;Medio;0;M;Verao;V;Nenhuma;Natural;Algodao;La;Sem informacao;Solido;1;vestido;F
+389;389;389;Boemio;Medio;4,1;Tamanho unico;Verao;O;Tres Quartos;Sem informacao;Sem informacao;Sem informacao;Buracos;Sem informacao;0;hoodie;F
+390;390;390;Casual;Medio;0;M;Primavera;O;Meia;Natural;Sem informacao;Sem informacao;Renda;Sem informacao;0;calcas;F
+391;391;391;Intimo;Baixo;4,6;M;Verao;O;Curta;Natural;Algodao;Sem informacao;Sem informacao;Animal;0;t-shirt;U
+392;392;392;Fofo;Baixo;0;Tamanho unico;Primavera;V;Nenhuma;Imperio;Sintetico;Seda;Sem informacao;Sem informacao;1;lingerie;U
+393;393;393;Casual;Medio;5;M;Primavera;O;Tres Quartos;Sem informacao;Spandex;Sem informacao;Sem informacao;Sem informacao;0;hoodie;F
+394;394;394;Casual;Baixo;5;Tamanho unico;Inverno;O;Comprida;Natural;La;Sem informacao;Apliques;Solido;0;sweatshirt;M
+395;395;395;Vintage;Medio;4,5;L;Inverno;O;Curta;Imperio;Sem informacao;Sem informacao;Lantejoulas;Mistura;1;vestido;U
+396;396;396;Casual;Medio;4,5;Tamanho unico;Verao;O;Curta;Natural;Poliester;Sem informacao;Sem informacao;Solido;0;meias;F
+397;397;397;Boemio;Baixo;4,4;L;Verao;Laco;Curta;Natural;Algodao;Sem informacao;Sem informacao;Pontos;0;polo;F
+398;398;398;Casual;Alto;0;L;Inverno;V;Tres Quartos;Natural;Poliester;Sem informacao;Folhos;Solido;1;t-shirt;F
+399;399;399;Casual;Medio;4,8;Tamanho unico;Inverno;O;Nenhuma;Sem informacao;Poliester;Sem informacao;Faixa;Solido;0;saia;U
+400;400;400;Intimo;Baixo;4,7;M;Inverno;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;0;boxers;U
+401;401;401;Casual;Medio-Alto;0;Tamanho unico;Inverno;Laco;Comprida;Sem informacao;Caxemira;Malha;Sem informacao;Solido;1;camisa;U
+402;402;402;Casual;Medio;4,7;M;Inverno;O;Curta;Imperio;Poliester;Sintetico;Sem informacao;Animal;0;hoodie;F
+403;403;403;Festa;Medio;0;M;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Mistura;1;calcas;F
+404;404;404;Boemio;Medio;4,8;S;Verao;V;Curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;0;saia;F
+405;405;405;Sensual;Medio;4,9;Tamanho unico;Verao;Quadrado;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Impressao;0;boxers;U
+406;406;406;Casual;Medio;3;M;Primavera;Botoes;Curta;Imperio;Poliester;Sem informacao;Faixa;Mistura;0;camisola;M
+407;407;407;Casual;Baixo;4,7;L;Outono;O;Curta;Natural;Poliester;Sintetico;Sem informacao;Mistura;1;cuecas;U
+408;408;408;Casual;Medio;4,3;M;Outono;O;Nenhuma;Natural;Poliester;Sem informacao;Liso;Solido;0;t-shirt;M
+409;409;409;Casual;Medio;0;XL;Inverno;V;Curta;Imperio;Poliester;Sintetico;Bolsos;Solido;1;calcoes;U
+410;410;410;Casual;Baixo;5;Tamanho unico;Verao;O;Nenhuma;Natural;Seda artificial;Malha;Liso;Solido;1;meias;M
+411;411;411;Vintage;Medio;0;L;Verao;Quadrado;Curta;Imperio;Algodao;Seda;Sem informacao;Pontos;1;meias;F
+412;412;412;Casual;Baixo;4,7;Tamanho unico;Inverno;O;Nenhuma;Natural;Seda de leite;Sem informacao;Sem informacao;Animal;0;vestido;F
+413;413;413;Vintage;Medio;5;M;Verao;V;Tres Quartos;Natural;Poliester;Sem informacao;Sem informacao;Impressao;0;sweatshirt;F
+414;414;414;Casual;Baixo;4,7;L;Verao;O;Comprida;Natural;Variados;La;Renda;Mistura;1;polo;U
+415;415;415;Boemio;Medio;4,6;M;Primavera;O;Nenhuma;Natural;Sintetico;Sintetico;Faixa;Solido;0;saia;M
+416;416;416;Festa;Medio;4,8;M;Verao;O;Comprida;Sem informacao;Algodao;Sem informacao;Sem informacao;Solido;1;sweatshirt;U
+417;417;417;Boemio;Baixo;4,6;Tamanho unico;Verao;V;Nenhuma;Natural;Algodao;Pano grosso;Perolas;Solido;0;calcoes;M
+418;418;418;Festa;Muito alto;4,6;Tamanho unico;Verao;O;Nenhuma;Imperio;Seda artificial;Sem informacao;Buracos;Solido;0;boxers;U
+419;419;419;Fofo;Baixo;4,8;M;Primavera;O;Curta;Natural;Sintetico;Sintetico;Laco;Pontos;1;vestido;F
+420;420;420;Vintage;Medio;0;M;Primavera;O;Meia;Imperio;Poliester;Sem informacao;Renda;Animal;0;vestido;U
+421;421;421;Casual;Medio-Alto;4,9;L;Inverno;O;Curta;Natural;Algodao;Pano grosso;Faixa;Solido;0;casaco;M
+422;422;422;Casual;Medio;4,2;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;La;Sem informacao;Riscas;1;vestido;U
+423;423;423;Casual;Medio;4,9;M;Verao;O;Curta;Caida;Algodao;Sem informacao;Folhos;Mistura;0;meias;F
+424;424;424;Boemio;Baixo;5;XL;Primavera;V;Tres Quartos;Natural;Sem informacao;Sintetico;Sem informacao;Impressao;1;casaco;U
+425;425;425;Casual;Medio;4,7;M;Verao;O;Nenhuma;Sem informacao;Algodao;Sem informacao;Sem informacao;Pontos;0;hoodie;U
+426;426;426;Casual;Medio;0;Tamanho unico;Verao;Laco;Meia;Sem informacao;Algodao;Sem informacao;Sem informacao;Sem informacao;0;boxers;F
+427;427;427;Casual;Medio;0;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Renda;Floral;0;calcoes;F
+428;428;428;Sensual;Medio-Alto;0;Tamanho unico;Inverno;O;Nenhuma;Natural;Poliester;Sem informacao;Lantejoulas;Solido;0;boxers;M
+429;429;429;Sensual;Baixo;4,4;Tamanho unico;Outono;V;Nenhuma;Natural;Algodao;La;Renda;Solido;0;t-shirt;F
+430;430;430;Sensual;Medio;0;Tamanho unico;Primavera;V;Comprida;Natural;Algodao;La;Renda;Solido;1;saia;M
+431;431;431;Intimo;Medio;4,9;XL;Primavera;Bateau;Comprida;Natural;Sem informacao;Sem informacao;Faixa;Solido;0;vestido;U
+432;432;432;Casual;Medio;4,7;XL;Verao;V;Meia;Natural;Sem informacao;Pano grosso;Sem informacao;Impressao;1;polo;F
+433;433;433;Casual;Medio;0;Tamanho unico;Outono;V;Comprida;Natural;Algodao;Sem informacao;Renda;Solido;0;cuecas;U
+434;434;434;Casual;Medio;4,8;M;Verao;V;Comprida;Natural;Sem informacao;Sintetico;Sem informacao;Sem informacao;0;hoodie;M
+435;435;435;Casual;Medio-Alto;4,9;L;Primavera;Quadrado;Nenhuma;Imperio;Sem informacao;Sem informacao;Sem informacao;Impressao;0;cuecas;F
+436;436;436;Festa;Medio;4,7;M;Primavera;O;Meia;Imperio;Sem informacao;Sintetico;Sem informacao;Mistura;0;vestido;F
+437;437;437;Sensual;Baixo;4,4;Tamanho unico;Verao;Laco;Nenhuma;Natural;Viscose;Sem informacao;Laco;Solido;0;sweatshirt;F
+438;438;438;Boemio;Baixo;4,6;Tamanho unico;Inverno;O;Nenhuma;Imperio;Poliester;Sem informacao;Sem informacao;Mistura;1;meias;F
+439;439;439;Casual;Baixo;4,6;Tamanho unico;Outono;O;Comprida;Natural;Seda artificial;Sem informacao;Renda;Solido;1;meias;F
+440;440;440;Sensual;Baixo;4,5;Tamanho unico;Verao;O;Nenhuma;Imperio;Algodao;Sem informacao;Faixa;Solido;1;calcoes;M
+441;441;441;Sensual;Baixo;0;Tamanho unico;Inverno;V;Sem informacao;Caida;Algodao;Sem informacao;Renda;Sem informacao;1;boxers;U
+442;442;442;Casual;Medio;0;XL;Primavera;Laco;Nenhuma;Natural;Variados;Sem informacao;Renda;Solido;0;cuecas;U
+443;443;443;Sensual;Medio;0;Tamanho unico;Outono;O;Comprida;Natural;Poliester;Cetim;Buracos;Solido;0;casaco;M
+444;444;444;Sensual;Baixo;4,8;Tamanho unico;Primavera;V;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Riscas;1;lingerie;U
+445;445;445;Intimo;Baixo;4,7;Tamanho unico;Outono;O;Nenhuma;Natural;Sem informacao;Sintetico;Lantejoulas;Solido;0;boxers;U
+446;446;446;Sensual;Alto;5;M;Verao;V;Nenhuma;Natural;Variados;Sem informacao;Sem informacao;Riscas;0;casaco;U
+447;447;447;Casual;Medio;4,6;L;Verao;Laco;Comprida;Caida;Algodao;Sem informacao;Sem informacao;Mistura;0;calcoes;F
+448;448;448;Fofo;Medio-Alto;4,9;S;Verao;Laco;Nenhuma;Imperio;Sem informacao;Sem informacao;Laco;Mistura;1;casaco;U
+449;449;449;Novo;Medio;4,9;M;Outono;O;Curta;Natural;Poliester;Seda;Nada;Impressao;0;vestido;U
+450;450;450;Casual;Baixo;4,3;Tamanho unico;Primavera;O;Comprida;Sem informacao;Sem informacao;Seda;Faixa;Nada;1;calcoes;F
+451;451;451;Casual;Baixo;4,7;S;Outono;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;0;meias;M
+452;452;452;Casual;Medio;4,8;L;Outono;U;Nenhuma;Natural;Sem informacao;Sem informacao;Faixa;Solido;0;lingerie;M
+453;453;453;Fofo;Medio;4,5;L;Inverno;V;Nenhuma;Natural;Poliester;Malha;Faixa;Solido;1;calcoes;F
+454;454;454;Casual;Medio;4,4;Tamanho unico;Verao;O;Muito curta;Natural;Algodao;Sem informacao;Sem informacao;Solido;0;meias;M
+455;455;455;Festa;Medio;0;M;Primavera;O;Nenhuma;Sem informacao;Sem informacao;Seda;Sem informacao;Solido;1;saia;F
+456;456;456;Sensual;Baixo;0;Tamanho unico;Verao;V;Nenhuma;Caida;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;meias;U
+457;457;457;Casual;Baixo;4,8;L;Verao;V;Tres Quartos;Natural;Algodao;Sem informacao;Sem informacao;Impressao;0;saia;F
+458;458;458;Trabalho;Medio;5;M;Verao;O;sleveless;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;1;lingerie;U
+459;459;459;Novo;Medio;5;Tamanho unico;Verao;O;Nenhuma;Natural;Sem informacao;Sem informacao;Sem informacao;Impressao;0;camisola;U
+460;460;460;Casual;Baixo;4,6;Tamanho unico;Primavera;V;Nenhuma;Natural;Seda;Seda;Em cortina;Solido;0;cuecas;M
+461;461;461;Casual;Medio;4,5;M;Verao;O;Comprida;Natural;Algodao;Sem informacao;Renda;Solido;0;calcas;M
+462;462;462;Casual;Medio;4,5;L;Primavera;U;Tres Quartos;Natural;Sem informacao;Pano;Renda;Animal;1;sweatshirt;U
+463;463;463;Casual;Medio;4,5;Tamanho unico;Outono;O;Meia;Natural;Algodao;Seda;Buracos;Solido;1;casaco;M
+464;464;464;Fofo;Baixo;0;M;Verao;U;Curta;Sem informacao;Sem informacao;Seda;Faixa;Sem informacao;0;meias;U
+465;465;465;Festa;Medio;4,9;M;Inverno;O;Meia;Sem informacao;Algodao;Sem informacao;Renda;Sem informacao;1;cuecas;U
+466;466;466;Casual;Medio;4,8;M;Verao;O;Meia;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;0;vestido;U
+467;467;467;Casual;Baixo;4,4;L;Verao;O;Nenhuma;Natural;Algodao;Seda;Sem informacao;Solido;0;lingerie;F
+468;468;468;Casual;Medio;4,3;M;Inverno;Bateau;Nenhuma;Natural;Poliester;Sem informacao;Faixa;Solido;0;camisa;F
+469;469;469;Fofo;Medio;4,7;L;Verao;O;Nenhuma;Natural;Poliester;Pano grosso;Renda;Solido;0;sweatshirt;F
+470;470;470;Sensual;Medio;0;S;Verao;V;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Sem informacao;1;calcoes;F
+471;471;471;Casual;Baixo;4,4;Tamanho unico;Verao;O;Nenhuma;Sem informacao;Sem informacao;Sem informacao;Sem informacao;Animal;0;camisola;U
+472;472;472;Fofo;Alto;4,3;M;Primavera;U;Comprida;Natural;Poliester;Terry;Renda;Solido;1;camisa;F
+473;473;473;Trabalho;Medio;4,8;M;Inverno;Botoes;Comprida;Natural;Sem informacao;Sem informacao;Sem informacao;Solido;0;sweatshirt;M
+474;474;474;Casual;Medio;4,6;M;Primavera;O;Meia;Natural;Poliester;Sem informacao;Renda;Solido;0;calcas;F
+475;475;475;Sensual;Baixo;0;Tamanho unico;Verao;V;Nenhuma;Imperio;Algodao;Sem informacao;Sem informacao;Solido;0;meias;U
+476;476;476;Casual;Alto;4,9;XL;Inverno;V;Comprida;Imperio;Algodao;Sem informacao;Lantejoulas;Solido;0;vestido;F
+477;477;477;Sensual;Baixo;0;Tamanho unico;Inverno;O;Nenhuma;Natural;Licra;Seda;Buracos;Solido;0;vestido;M
+478;478;478;Fofo;Medio;5;M;Outono;V;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Solido;0;casaco;M
+479;479;479;Fofo;Baixo;0;Tamanho unico;Primavera;V;Nenhuma;Natural;Seda;La;Renda;Mistura;1;camisola;F
+480;480;480;Casual;Baixo;4,4;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Bolsos;Solido;0;meias;U
+481;481;481;Casual;Medio;0;L;Primavera;O;Nenhuma;Natural;Sintetico;Seda;Lantejoulas;Solido;0;lingerie;F
+482;482;482;Fofo;Medio;4,7;M;Primavera;O;Comprida;Natural;Seda artificial;Seda;Perolas;Solido;1;polo;F
+483;483;483;Casual;Medio;4,6;M;Inverno;V;Meia;Natural;Seda;Seda;Faixa;Solido;1;camisola;M
+484;484;484;Casual;Baixo;4,4;Tamanho unico;Verao;O;Comprida;Natural;Algodao;Sem informacao;Sem informacao;Solido;1;t-shirt;U
+485;485;485;Casual;Baixo;5;M;Outono;O;Nenhuma;Imperio;Sem informacao;Seda;Sem informacao;Impressao;1;boxers;M
+486;486;486;Casual;Medio;0;Tamanho unico;Inverno;O;Curta;Natural;Poliester;Seda;Cascata;Solido;0;t-shirt;U
+487;487;487;Sensual;Medio;0;Tamanho unico;Inverno;Bateau;Nenhuma;Natural;Algodao;Pano grosso;Lantejoulas;Solido;1;lingerie;F
+488;488;488;Casual;Baixo;4,4;M;Verao;O;Meia;Imperio;Sintetico;Seda;Laco;Solido;0;hoodie;F
+489;489;489;Fofo;Medio;0;L;Verao;O;Nenhuma;Imperio;Algodao;Sem informacao;Renda;Solido;1;polo;F
+490;490;490;Casual;Baixo;4,8;Tamanho unico;Inverno;Laco;Comprida;Natural;Poliester;Seda;Laco;Solido;0;meias;U
+491;491;491;Casual;Medio;5;L;Verao;O;Nenhuma;Natural;Algodao;Sem informacao;Sem informacao;Sem informacao;1;t-shirt;U
+492;492;492;Fofo;Medio;4,6;M;Primavera;O;Meia;Natural;Acrilico;Seda;Sem informacao;Sem informacao;0;boxers;F
+493;493;493;Boemio;Baixo;4,6;Tamanho unico;Verao;O;Nenhuma;Natural;Algodao;Seda;Nada;Solido;1;cuecas;F
+494;494;494;Intimo;Medio;4,7;M;Inverno;O;Meia;Natural;Acrilico;Seda;Sem informacao;Riscas;0;polo;F
+495;495;495;Casual;Baixo;4,7;M;Primavera;O;Comprida;Natural;Poliester;Sem informacao;Sem informacao;Solido;1;meias;M
+496;496;496;Sensual;Baixo;4,3;Tamanho unico;Verao;O;Comprida;Imperio;Algodao;Sem informacao;Sem informacao;Sem informacao;0;meias;M
+497;497;497;Casual;Medio;4,7;M;Verao;V;Comprida;Imperio;Algodao;Sem informacao;Renda;Solido;1;hoodie;U
+498;498;498;Casual;Medio;4,6;L;Inverno;U;Nenhuma;Imperio;Seda;Pano grosso;Apliques;Impressao;1;cuecas;M
+499;499;499;Casual;Baixo;4,4;Tamanho unico;Verao;V;Curta;Imperio;Algodao;Veludo;Renda;Solido;0;vestido;M
