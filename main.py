@@ -1,20 +1,21 @@
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Press Double Shift to search everywhere for classes, files, tool windows,
+# actions, and settings.
 
 import csv
 import pandas as pd
 import numpy as np
 import rdflib
 import pprint
-
+import random
 from rdflib import Namespace, Graph, Literal, BNode, URIRef
 from rdflib.namespace import NamespaceManager, RDF
 
 
 def translate():
-    dados = pd.read_csv("Attribute dadosSet.csv", delimiter=';', header=0)
+    dados = pd.read_csv("Attribute Dataset.csv", delimiter=';', header=0)
 
     dados = dados.replace(np.nan, 'Sem informacao')
     dados = dados.replace('Brief', 'Intimo')
@@ -179,14 +180,52 @@ def translate():
     dados = dados.replace('splice', 'Trancas')
     dados = dados.replace('striped', 'Riscas')
 
-    dados.to_csv('PT Attribute dadosset.csv', sep=';')
+    dados.to_csv('PT Attribute Dataset.csv', sep=';')
+
+
+def generate_type(data):
+    types = []
+    options = ['camisola', 'vestido', 't-shirt', 'calcas', 'meias', 'casaco',
+               'polo', 'saia', 'calcoes', 'camisa', 'boxers', 'cuecas',
+               'lingerie', 'hoodie', 'sweatshirt']
+    for i in range(len(data)):
+        types.append(random.choice(options))
+
+    return types
+
+
+def generate_sex(data):
+    sex = []
+    # u = unisex
+    options = ['M', 'F', 'U']
+    for i in range(len(data)):
+        sex.append(random.choice(options))
+
+    return sex
+
+
+def generate_missing_info(data):
+    new = pd.read_csv('PT Attribute Dataset v2.csv', delimiter=';', header=0)
+    # gera tipo de roupa
+    types = generate_type(new)
+    # gera sexo
+    sex = generate_sex(new)
+    # adiciona nova info ao dataframe
+    new = new.assign(Tipo=types)
+    new = new.assign(Sexo=sex)
+    return new
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # translate()
-    data = pd.read_csv("PT Attribute Dataset.csv", delimiter=';', header=0)
+    # completar o dataset com tipo de artigo e sexo indicado
+    # data = pd.read_csv("PT Attribute Dataset.csv", delimiter=';', header = 0)
+    # data = generate_missing_info(data)
+    # data.to_csv('PT Attribute Dataset v2.csv', sep=';')
+    data = pd.read_csv("PT Attribute Dataset v2.csv", delimiter=';', header=0)
     data = data.astype(str)
+    # forma triplos
     artigos = data.itertuples(index=False, name='Artigo')
     # for row in artigos:
     #     print(row)
@@ -196,9 +235,9 @@ if __name__ == '__main__':
     # n = Namespace("http://example.org/")
     # flag = 0
     for row in artigos:
-    #     n[row[0]]
-    #     # id = BNode()
-        for i in range(1, 14):
+        #     n[row[0]]
+        #     # id = BNode()
+        for i in range(1, 16):
 
             # rdf.add((URIRef(row[0]), RDF.subject, URIRef(n[row[0]])))
             # rdf.add((URIRef(row[0]), RDF.predicate, n[data.columns[i]]))
@@ -208,14 +247,14 @@ if __name__ == '__main__':
             # print('Column ' + data.columns[i])
             # print('Value ' + row[i])
 
-            rdf.add((rdflib.URIRef(row[0]), rdflib.URIRef(data.columns[i]), rdflib.Literal(row[i])))
+            rdf.add((rdflib.URIRef(row[0]), rdflib.URIRef(data.columns[i]),
+                     rdflib.Literal(row[i])))
             # if (i == 13):
             #     flag = 1
             # if (not flag):
             #     n[data.columns[i]]
 
             # rdf.add(n[row[0]], n[data.columns[i]], Literal(row[i]))
-
 
     # for nt in rdf:
     #     pprint.pprint(nt)
