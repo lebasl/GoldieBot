@@ -11,6 +11,7 @@ from nltk.tokenize import word_tokenize as tokenize
 # from nltk import SnowballStemmer as snowball
 import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import random
 
@@ -62,6 +63,12 @@ def remove_stopwords(words):
     return filtered
 
 
+def remove_all(words):
+    filtered = remove_noise(words)
+    filtered = remove_stopwords(words)
+    return filtered
+
+
 def stemming(words):
     filtered = []
     pos_tag = []
@@ -84,9 +91,13 @@ def stemming(words):
 
 
 def bag_of_words(words):
-    ocurrences = []
+    vectorizer = CountVectorizer()
+    # encontra o numero de vezes que cada palavra e usada
+    bag = vectorizer.fit_transform(words)
+    # valor da coluna 0 e o indice da primeira ocorrencia
+    df = pd.DataFrame(bag.todense(), columns=vectorizer.get_feature_names())
 
-    return ocurrences
+    return df
 
 
 def find_greeting(words):
@@ -116,26 +127,40 @@ def find_thanks(words):
     return thank
 
 
-def output_generator(question, sentences, greeting, thank):
+def output_generator(question, dataset, greeting, thank):
     greetings = ['ola', 'oi', 'boas', 'hey', 'viva', 'saudacoes',
                  'cumprimentos']
     thanks = ['de nada', 'ora essa', 'o prazer foi todo meu', 'sem problema',
               'estou aqui para ajudar']
 
     answer = ''
-    sentences.append(question)
-    # tokenizer e a funcao que vai ser usada para remover pontuacao etc
-    TfidVec = TfidfVectorizer(tokenizer=remove_noise,
-                              stop_words=stopwords.words('portuguese'))
-    # transforma em Tf-idf-weighted matrix
-    tfidf = TfidVec.fit_transform(sentences)
-    # similaridade entre sentences e question
+    pergunta = ''
+
+    # question tem de estar no formato str apenas
+    for i in range(len(question)):
+        pergunta += question[i]
+        pergunta += ' '
+    dataset.append(pergunta)
+
+    vectorizer = TfidfVectorizer()
+    vectorizer.set_params(lowercase = False)
+
+    # importancia das palavras do dataset - importnate para poder fazer cosine similarity
+    # que exige matrizes do mesmo tamanho
+    tfidf = vectorizer.fit_transform(dataset)
+    # converter a matriz para dataframe
+    df = pd.DataFrame(tfidf.todense(), columns = vectorizer.get_feature_names())
+
+    # similaridade entre dataset e question
     values = cosine_similarity(tfidf[-1], tfidf)
-    # array de indices para ordenar
+    # print(values)
+    # array de indices para ordenar por values
     index = values.argsort()[0][-2]
-    # ordenar por row matrix
+    # ordenar em matriz
     flat = values.flatten()
     flat.sort()
+
+    # value mais alto (sem contar o correspondente a pergunta em si)
     req_tfidf = flat[-2]
 
     # se nao ha qualquer similaridade entre a pergunta e o texto (sentences)
@@ -151,29 +176,33 @@ def output_generator(question, sentences, greeting, thank):
         if thank:
             answer += random.choice(thanks)
             answer += ' '
-        # vai buscar a resposta mais similar
-        answer += sentences[index]
+        # vai buscar a resposta que retornou o value mais similar
+        answer += dataset[index]
 
     return answer
-    thanks = ['obrigada', 'obrigado', 'gracias', 'ty', 'thanks', 'grato',
-              'grata', 'agradecido', 'agradecida']
-    thank = 0
 
-    for w in words:
-        if w in thanks:
-            thank = 1
-            break
 
-    return thank
+def test_dataset(filename):
+    dataset = []
+    f = open(filename, 'r')
+    lines = f.read().split('.')
+    i = 0
+
+    for line in lines:
+        line = line.lower()
+        dataset.insert(i, line)
+        i += 1
+
+    f.close()
+
+    return dataset
 
 
 def input_processing(filename):
     f = open(filename, 'r')
     lines = f.readlines()
-    raw = f.read()
-    raw = raw.lower()
 
-    # answer = []
+    answer = ''
     filtered = []
     pos_tag = []
     greeting = 0
@@ -187,23 +216,22 @@ def input_processing(filename):
     # nltk.download('wordnet') N USADA
     # nltk.download('rslp') N USADA
 
+    # dataset onde vai buscar as respostas
+    teste = test_dataset('teste.txt')
+
     for line in lines:
         line = line.lower()
         tokens = tokenize(line)
 
-        # isto aqui e para as respostas!!!!!!!!!!!!!!!!!!!!!!!
-        sentences = nltk.sent_tokenize(line, language='portuguese')
-        words = nltk.word_tokenize(line, language='portuguese')
-
         # procura cumprimento
         greeting = find_greeting(tokens)
-        # se encontrar guarda o indice da linha
+        # # se encontrar guarda o indice da linha
         if greeting:
             pos_greetings.append(j)
 
-        # procura agradecimento
+        # # procura agradecimento
         thanks = find_thanks(tokens)
-        # se encontrar guarda o indice da linha
+        # # se encontrar guarda o indice da linha
         if thanks:
             pos_thanks.append(j)
 
@@ -211,9 +239,9 @@ def input_processing(filename):
 
         # remove whitespace e pontuacao
         filtered = remove_noise(tokens)
-        # remove palavras irrelevantes
+        # # remove palavras irrelevantes
         filtered = remove_stopwords(filtered)
-        # stemming e pos tagging
+        # # stemming e pos tagging
         [filtered, pos_tag] = stemming(filtered)
 
         # for i in range(0, len(filtered)):
@@ -221,17 +249,23 @@ def input_processing(filename):
         #     print(pos_tag[i])
 
         # deteta ocorrencia de cada palavra
-        # bagwords = bag_of_words(filtered)
+        bagwords = bag_of_words(filtered)
 
-        # gera resposta
-        # SENTENCES TEM DE SER AS RESPOSTAS POSSIVEIS, OU INFO DE ONDE AS TIRAR
-        output_generator(filtered, sentences, greeting, thanks)
+        # gera resposta a partir do dataset
+        answer = output_generator(filtered, teste, greeting, thanks)
+
+        print('para a pergunta')
+        print(line)
+        print('responde')
+        print(answer)
+        print('\n')
+
+        # a pergunta do inverno da erro porque o stemming muda a palavra para invernar :(
 
         j += 1
+        # j usado no pos_greeting e pos_thanks
 
-    # for w in filtered:
-    #     print(w)
-    #     # imprime valor no indice correspondente do bagwords
+    f.close()
 
     return filtered
 
