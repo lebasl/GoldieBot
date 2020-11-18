@@ -80,8 +80,10 @@ def stemming(words):
     for w in words:
         for token in nlp(w):
             # w = stemmer.stem(w)
+            # encontra root de cada palavra
             w = token.lemma_
             filtered.append(w)
+            # identifica parts of speech da palavra
             pos = token.pos_
             pos_tag.append(pos)
             # print(w)
@@ -135,6 +137,7 @@ def output_generator(question, dataset, greeting, thank):
 
     answer = ''
     pergunta = ''
+    response = ''
 
     # question tem de estar no formato str apenas
     for i in range(len(question)):
@@ -143,13 +146,14 @@ def output_generator(question, dataset, greeting, thank):
     dataset.append(pergunta)
 
     vectorizer = TfidfVectorizer()
-    vectorizer.set_params(lowercase = False)
+    vectorizer.set_params(lowercase=False)
 
-    # importancia das palavras do dataset - importnate para poder fazer cosine similarity
-    # que exige matrizes do mesmo tamanho
+    # importancia das palavras do dataset - importante para poder fazer cosine
+    # similarity que exige matrizes do mesmo tamanho
     tfidf = vectorizer.fit_transform(dataset)
     # converter a matriz para dataframe
-    df = pd.DataFrame(tfidf.todense(), columns = vectorizer.get_feature_names())
+    # features = vectorizer.get_feature_names()
+    # df = pd.DataFrame(tfidf.todense(), columns=features)
 
     # similaridade entre dataset e question
     values = cosine_similarity(tfidf[-1], tfidf)
@@ -160,26 +164,34 @@ def output_generator(question, dataset, greeting, thank):
     flat = values.flatten()
     flat.sort()
 
+    # FALTA CONSIDERAR SITUACAO EM QUE HA MAIS QUE UM VALUES
+    # IGUAIS (como esta usa o ultimo encontrado)
+
     # value mais alto (sem contar o correspondente a pergunta em si)
     req_tfidf = flat[-2]
 
-    # se nao ha qualquer similaridade entre a pergunta e o texto (sentences)
+    # se nao ha qualquer similaridade entre a pergunta e o dataset
     if req_tfidf == 0:
         if greeting:
-            answer += random.choice(greetings)
-            answer += ' '
-        answer = 'Nao percebi, que me queres dizer?'
+            response += random.choice(greetings)
+            response += ' '
+        response = 'Nao percebi, que me queres dizer?'
     else:
+        answer = find_intention(question, dataset[index])
         if greeting:
-            answer += random.choice(greetings)
-            answer += ' '
+            response += random.choice(greetings)
+            response += ' '
         if thank:
-            answer += random.choice(thanks)
-            answer += ' '
+            response += random.choice(thanks)
+            response += ' '
         # vai buscar a resposta que retornou o value mais similar
-        answer += dataset[index]
+        # analisa a pergunta e devolve a parte da resposta que o user quer
+        response += answer
 
-    return answer
+        print(pergunta)
+        print(response)
+
+    return response
 
 
 def test_dataset(filename):
@@ -198,7 +210,22 @@ def test_dataset(filename):
     return dataset
 
 
-def input_processing(filename):
+def find_intention(question, response):
+    # analisa a pergunta e ve qual parte da resposta o user quer
+
+    # ver question words
+
+    answer = response.split(',')
+    if 'onde' in question:
+        return answer[2]
+
+    response = 'artigo'
+    response += answer[0]
+    return response
+
+
+if __name__ == '__main__':
+    filename = 'inputs.txt'
     f = open(filename, 'r')
     lines = f.readlines()
 
@@ -249,40 +276,23 @@ def input_processing(filename):
         #     print(pos_tag[i])
 
         # deteta ocorrencia de cada palavra
-        bagwords = bag_of_words(filtered)
+        # bagwords = bag_of_words(filtered)
 
         # gera resposta a partir do dataset
         answer = output_generator(filtered, teste, greeting, thanks)
 
-        print('para a pergunta')
-        print(line)
-        print('responde')
-        print(answer)
-        print('\n')
+        # print('para a pergunta')
+        # print(line)
+        # print('responde')
+        # print(answer)
+        # print('\n')
 
-        # a pergunta do inverno da erro porque o stemming muda a palavra para invernar :(
+        # a pergunta do inverno da erro porque o stemming muda a
+        # palavra para invernar :(
 
         j += 1
         # j usado no pos_greeting e pos_thanks
 
     f.close()
 
-    return filtered
-
     # atencao a acentos
-    # question words
-
-    # fuck, e se escrevem tshirt em vez de t-shirt e essas merdas? (sweat em
-    # vez de sweatshirt, calcao em vez de calcoes) bue merdas lel
-
-
-def find_intention(filtered):
-    # regras
-    # ex. se encontra onde responde com a localizacao da loja
-    return
-
-
-if __name__ == '__main__':
-    filename = 'inputs.txt'
-    filtered = input_processing(filename)
-    find_intention(filtered)
