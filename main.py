@@ -47,14 +47,7 @@ def remove_noise(words):
 def remove_stopwords(words):
     filtered = []
     stop_words = set(stopwords.words('portuguese'))
-
-    for w in words:
-        if w not in stop_words:
-            filtered.append(w)
-
-    return filtered
-    stop_words = set(stopwords.words('portuguese'))
-    filtered = []
+    # print(stop_words)
 
     for w in words:
         if w not in stop_words:
@@ -98,6 +91,8 @@ def bag_of_words(words):
     bag = vectorizer.fit_transform(words)
     # valor da coluna 0 e o indice da primeira ocorrencia
     df = pd.DataFrame(bag.todense(), columns=vectorizer.get_feature_names())
+
+    # print(df)
 
     return df
 
@@ -154,13 +149,16 @@ def output_generator(question, dataset, greeting, thank):
     # converter a matriz para dataframe
     # features = vectorizer.get_feature_names()
     # df = pd.DataFrame(tfidf.todense(), columns=features)
+    # print(df)
 
     # similaridade entre dataset e question
     values = cosine_similarity(tfidf[-1], tfidf)
+    # print(pergunta)
+    # print(values)
     # print(values)
     # array de indices para ordenar por values
     index = values.argsort()[0][-2]
-    # ordenar em matriz
+    # ordenar o array
     flat = values.flatten()
     flat.sort()
 
@@ -168,16 +166,16 @@ def output_generator(question, dataset, greeting, thank):
     # IGUAIS (como esta usa o ultimo encontrado)
 
     # value mais alto (sem contar o correspondente a pergunta em si)
-    req_tfidf = flat[-2]
+    similaridade = flat[-2]
 
     # se nao ha qualquer similaridade entre a pergunta e o dataset
-    if req_tfidf == 0:
+    if similaridade == 0:
         if greeting:
             response += random.choice(greetings)
             response += ' '
         response = 'Nao percebi, que me queres dizer?'
     else:
-        answer = find_intention(question, dataset[index])
+        # answer = find_intention(question, dataset[index])
         if greeting:
             response += random.choice(greetings)
             response += ' '
@@ -186,10 +184,8 @@ def output_generator(question, dataset, greeting, thank):
             response += ' '
         # vai buscar a resposta que retornou o value mais similar
         # analisa a pergunta e devolve a parte da resposta que o user quer
-        response += answer
-
-        print(pergunta)
-        print(response)
+        # response += answer
+        response += dataset[index]
 
     return response
 
@@ -249,6 +245,7 @@ if __name__ == '__main__':
     for line in lines:
         line = line.lower()
         tokens = tokenize(line)
+        # print(tokens)
 
         # procura cumprimento
         greeting = find_greeting(tokens)
@@ -262,12 +259,12 @@ if __name__ == '__main__':
         if thanks:
             pos_thanks.append(j)
 
-        # identificar question words?
-
         # remove whitespace e pontuacao
         filtered = remove_noise(tokens)
+        # print(filtered)
         # # remove palavras irrelevantes
         filtered = remove_stopwords(filtered)
+        # print(filtered)
         # # stemming e pos tagging
         [filtered, pos_tag] = stemming(filtered)
 
@@ -296,3 +293,4 @@ if __name__ == '__main__':
     f.close()
 
     # atencao a acentos
+    # usar wordnet para p.ex. traduzir filho para M
