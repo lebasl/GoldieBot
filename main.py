@@ -10,7 +10,7 @@ import numpy as np
 import rdflib
 import pprint
 import random
-from rdflib import Namespace, Graph, Literal, BNode, URIRef
+from rdflib import Namespace, Graph, Literal, BNode, URIRef, RDFS
 from rdflib.namespace import NamespaceManager, RDF
 
 
@@ -231,13 +231,16 @@ if __name__ == '__main__':
     #     print(row)
 
     rdf = rdflib.Graph()
+    # rdf = rdflib.ConjunctiveGraph()
 
-    # n = Namespace("http://example.org/")
+    n = Namespace("http://example.org/")
     # flag = 0
     for row in artigos:
+        artigo = URIRef(n[row[0]])
         #     n[row[0]]
         #     # id = BNode()
-        for i in range(1, 16):
+        for i in range(1, 17):
+            u = URIRef(n[data.columns[i]])
 
             # rdf.add((URIRef(row[0]), RDF.subject, URIRef(n[row[0]])))
             # rdf.add((URIRef(row[0]), RDF.predicate, n[data.columns[i]]))
@@ -247,29 +250,46 @@ if __name__ == '__main__':
             # print('Column ' + data.columns[i])
             # print('Value ' + row[i])
 
-            rdf.add((rdflib.URIRef(row[0]), rdflib.URIRef(data.columns[i]),
-                     rdflib.Literal(row[i])))
-            # if (i == 13):
+            # rdf.add((rdflib.URIRef(row[0]), rdflib.URIRef(data.columns[i]),
+            #           rdflib.Literal(row[i])))
+            # if (i == 16):
             #     flag = 1
             # if (not flag):
             #     n[data.columns[i]]
 
-            # rdf.add(n[row[0]], n[data.columns[i]], Literal(row[i]))
+            rdf.add((artigo, u, Literal(row[i])))
 
     # for nt in rdf:
     #     pprint.pprint(nt)
 
     # formato nt mostra id - coluna - valor (n-triples)
     # formato turtle mostra junta os pares coluna - valor para cada id
-    # s = rdf.serialize(format='nt').decode("utf-8")
-    # # print(s)
+    s = rdf.serialize(format='nt').decode("utf-8")
+    # print(s)
     # pprint.pprint(rdf.value(subject=None, predicate='Preco', object='Baixo'))
+    x = URIRef('http://example.org/70')
+    # if (x, URIRef('http://example.org/Material'), Literal('Algodao')) in rdf:
+    #     print('ola')
+
+    print(rdf.value(subject=x, predicate=URIRef('http://example.org/Material')))
+
+    # pprint.pprint(sorted(rdf.preferredLabel('99')))
 
     # s = rdf.serialize(format='turtle').decode("utf-8")
+
+    # rdf.serialize(destination='teste.txt', format='turtle')
     # graph = rdflib.Graph()
-    # graph = graph.parse(data=rdf, format='turtle')
+    # result = graph.parse(data=s, format='application/rdf+xml')
+
+    # print(s)
+    # graph = rdflib.Graph()
+    # graph = graph.parse(data=s, format='turtle')
+    # for stmt in graph:
+    #     pprint.pprint(stmt)
+    # print(len(graph))
+    # pprint.pprint(graph.value(subject=None, predicate='Preco', object='Baixo'))
     # sub = rdf.predicate_objects('200')
-    # pprint.pprint(sub)
+    # pprint.pprint(list(sub))
 
     # Subject e o ID do artigo
     # subjects = rdf.subjects(predicate=None, object=None)
@@ -285,6 +305,8 @@ if __name__ == '__main__':
     # objects = rdf.objects(predicate=None, subject=None)
     # for object in objects:
     #     print(object)
+
+
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
