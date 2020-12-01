@@ -1,0 +1,1 @@
+Loja, Localizacao, Paredes de Coura. 1, Estilo, Casual. 1, Tipo, Camisola. 1, Sexo, M. 2, Tipo, Vestido. 2, Estacao, Inverno. 2, Preco, Baixo. 3, Tipo, Camisola. 3, Estacao, Verao
