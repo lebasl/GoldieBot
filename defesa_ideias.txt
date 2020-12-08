@@ -1,0 +1,23 @@
+Onde posso encomendar?
+
+Onde posso encomendar uma camisola tamanho xl?
+
+-> EMAIL(perguntar) (check)
+-> FAZER POS_TAG ANTES DA LEMMATIZAÇÃO -> SE HOUVER UM NOUN-VERB IGNORAR (perguntar)
+	->NLPYPort são treinados por longos textos em PT, contraçóes do/num considera isso como uma unica TAG, isso vai alterar as prob. qd estrá a atribuir a TAG, e tendencia a ter mais erros por isso. ->Tokenização tem em consideração isto.
+	-> POS_TAG é parecido/igual ao NLTK, mas com melhores resultados.
+	->RASA (lib) -> organizar as intents 
+-> Quando minusculo não funciona /WHYYYY?,
+	-> NLPYPort , Stanza, 
+
+
+->Motor de IR, conj de perguntas para cada intent -> cosin simi. -> OR RASA 
+
+REPORT:
+-limitações, projeção para o futuro, exemplos 
+-> Dar a testar a uma pessoa
+-> typos e correção autográfico (UPERCASE[1])
+-> Meter acentos no dataset(algodão/algodao)
+
+-> SPARQL em vez de dict ( se calhar mudar para n3/triplestore)
+-> SPARQL PREDICADOS (exemplo -: O que tem para festa? )
