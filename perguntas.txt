@@ -1,0 +1,44 @@
+|| CANCELAR_INFORM
+Quando posso cancelar a minha encomenda ? >> A encomenda pode ser cancelada por telefone , durante o horário de funcionamento !
+Onde posso cancelar a minha encomenda ? >> A encomenda pode ser cancelada por telefone , ligue !
+Como paro a minha encomenda ? >> A encomenda pode ser cancelada por telefone , ligue !
+Como parar a minha encomenda ? >> A encomenda pode ser cancelada por telefone , ligue !
+|| LOCAL_INFORM
+Onde posso encontrar a vossa loja ? >> Estamos na Rua Direita , em Terra Esquerda . Bata à porta !
+Onde estão localizados ? >> Estamos na Rua Direita , em Terra Esquerda . Bata à porta !
+Qual é a vossa localização ? >> Estamos na Rua Direita , em Terra Esquerda . Bata à porta !
+Quero ir pessoalmente à vossa boutique , onde fica ? >> Estamos na Rua Direita , em Terra Esquerda . Bata à porta !
+|| ENCOMENDA_INFORM
+Onde posso ver as minhas encomendas ? >> Visite a Área Pessoal , lá tem toda a informação sobre as suas encomendas !
+Onde vejo as minhas encomendas ? >> Visite a Área Pessoal , lá tem toda a informação sobre as suas encomendas !
+Onde encomendo ? >> Para encomendar basta adicionar o artigo ao carrinho e concluir a compra !
+Quando chegam as minhas encomendas ? >> As encomendas chegam em 2-3 dias úteis . Não espere mais tempo !
+Que métodos de pagamento possuem ? >> Pode pagar por mbway , NFC multibanco ou cartão !
+Como funciona o pagamento online ? >> Pode pagar por mbway , NFC , multibanco ou cartão !
+|| ARTIGO_INFORM
+Estou à procura de uma camisola >> camisola
+Estou à procura de algo sensual para esta estação >> sensual << Em que estação estamos ? Tenho andado distraído !
+Que estilos de camisa têm ? >> estilo , camisa
+Preciso de algo casual e fofo >> casual , fofo
+Queria comprar um polo casual para o Verão >> polo , casual , verao
+Hoodie tamanho m , por favor >> hoodie , m , tamanho
+Procuro algo para a festa de anos da minha filha >> festa
+Quais são as novidades para o outono ? >> outono
+Procuro um vestido com folhos , com padrão xadrez >> vestido , folhos , xadrez , padrao
+O meu filho precisa de uma camisa tamanho s >> M , camisa , s , tamanho
+O meu filho vai dar uma festa e precisa de algo para vestir a condizer >> festa , M , sexo
+Onde posso arranjar um vestido s ? >> vestido , s , tamanho
+Casaco para esta estação ? >> casaco << Em que estação estamos ? Tenho andado distraído !
+O que há para homem ? >> M , sexo
+O que tem para menina ? >> F , sexo
+O que existe para senhora ? >> F , sexo
+Que artigos para mulher tem disponiveis ? >> F , sexo
+Procuro uma camisa com decote em v , tamanho m e em algodão >> v , camisa , m , algodao , decote , tamanho
+t-shirt algodão pelos melhores preços >> t-shirt , algodao , preco , baixo
+Camisas Unisexo ? >> camisa , U , sexo
+Calças com padrão em xadrez ? >> calcas , padrao , xadrez
+Que artigos tem para menino e menina ? >> sexo , M , F
+Meias e Cuecas para Mulher ? >> meias , sexo , F << cuecas , sexo , F
+Têm algum vestido com cintura caida ? >> vestido , cintura , caida
+Estou à procura de uma sweatshirt em malha , tem ? >> sweatshirt , malha
+Conjunto de calções e polo >> calcoes << polo

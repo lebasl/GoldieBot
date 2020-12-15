@@ -4,21 +4,21 @@ Created on Mon Nov 30 01:20:50 2020
 
 @author: Eduardo Vicente and Isabel Carvalho
 """
+
 from wordspell_corrector import *
 from NLPyPort.FullPipeline import *
 import pandas as pd
 import string
+import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize as tokenize
 import spacy
-import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.corpus import floresta
 import joblib
 from nltk import word_tokenize
 
 question_words = ['que','quanto','quantos','cujo','cujos','quem','onde','quando','como','por','qual','quais','para','em']
-
 
 
 def find_greeting(words):
@@ -85,20 +85,20 @@ def remove_stopwords(words):
 
 
 def part_of_speech(words,nlp):
-    
-    
+
+
     pos_tag = []
-    
+
     # using spacy pt
-    
-    
-    for w in words:  
-        
+
+
+    for w in words:
+
         for token in nlp(w):
             #valor a nivel semantico das palavras
             pos = token.pos_
             pos_tag.append(pos)
-            
+
     return pos_tag
 
 
@@ -106,13 +106,13 @@ def stemming_lemmatization(words,nlp):
     filtered = []
 
     for w in words:
-               
+
         for token in nlp(w):
-            # encontra root de cada palavra 
+            # encontra root de cada palavra
             w = token.lemma_
             filtered.append(w)
-           
-    
+
+
     return filtered
 
 def bag_of_words(words):
@@ -133,9 +133,9 @@ def autocorrect(tokens):
             arr.append(correction(t))
     print(arr)
     return arr
-    
+
 def NLPyPort_transform(msg):
-    
+
     options = {
 			"tokenizer" : True,
 			"pos_tagger" : True,
@@ -148,15 +148,15 @@ def NLPyPort_transform(msg):
     text = new_full_pipe(msg,options=options)
     dic_pos = dict()
     tags = text.pos_tags
-    
-    
+
+
     #SAVE POS_TAGS POSITIONS
     for i in range(len(tags)):
         dic_pos[text.lemas[i]] = tags[i]
 
-    
+
     #PRINT PARAMETERS FROM TEXT:
-        
+
     # if(text!=0):
     #   print("TOKENS: "+ str(text.tokens)+" \n")
     #   print("POS_TAG: "+ str(text.pos_tags)+" \n")
@@ -164,36 +164,39 @@ def NLPyPort_transform(msg):
     #   print("NP_TAGS: "+ str(text.np_tags)+" \n")
 
     filtered = autocorrect(text.tokens)
-    
+
     #FIND GREETING WORDS ->
     [greeting,idx_g] = find_greeting(filtered)
-   
+
     #FIND THANKFULL WORDS ->
     [thanks,idx_t] = find_thanks(filtered)
-    
+
     filtered = text.lemas
-  
+
     #REMOVE PONCTUATION NOISE and EOS
     filtered = remove_noise(filtered)
     #REMOVE STOPWORDS
     filtered = remove_stopwords(filtered)
+
+    # TRADUZ ACENTOS
+    filtered = translate(filtered)
+
     arr_tag = []
     for i in range(len(filtered)):
         if filtered[i] in list(dic_pos.keys()):
             arr_tag.append(dic_pos[filtered[i]])
- 
+
     return [greeting,thanks,filtered,arr_tag]
 
 def Spacy_NLP_transform(msg):
-    
-      
-    ##RETURN A TUPLE LIKE -> (greetings,thanks,[vector of tokens],[pos_tag],extra_info (target))
-    nlp = spacy.load('C:\\Users\\Eduardo Vicente\\Anaconda3\\Lib\\site-packages\\pt_core_news_lg\\pt_core_news_lg-2.3.0')
 
+
+    ##RETURN A TUPLE LIKE -> (greetings,thanks,[vector of tokens],[pos_tag],extra_info (target))
+    nlp = spacy.load("pt_core_news_lg")
     #TOKENIZER -TOKENIZE WORDS/ELEMENTS IN THE MESSAGE STATMENT
     tokens = tokenize(msg)
     # print(tokens)
-    
+
     #FIND GREETINGS ->
     [greeting,idx_g] = find_greeting(tokens)
     if greeting == 1:
@@ -203,30 +206,60 @@ def Spacy_NLP_transform(msg):
     if thanks == 1:
         tokens.pop(idx_t)
     # REMOVE WORDS ^ INDEX (GREETING OR THANKS) -> WE NEED TO PASS THIS INFORMATION FOR THE MSG CONSTRUCTOR
-    
-   
+
+
     #REMOVE WHITESPACES AND PONCTUACTION ELEMENTS
     filtered = remove_noise(tokens)
-    
-    #REMOVE STOPWORDS 
+
+    #REMOVE STOPWORDS
     filtered = remove_stopwords(filtered)
-        
+
+    # TRADUZ ACENTOS
+    filtered = translate(filtered)
+
     #STEMMING & LEMMATIZATION
     filtered = stemming_lemmatization(filtered,nlp)
-    
+
     #PART-OF-SPEECH TAG POS
     pos_tag = part_of_speech(filtered,nlp)
     print(pos_tag)
-    #BAG OF WORDS 
+    #BAG OF WORDS
     # bagwords = bag_of_words(filtered)
-        
+
     return [greeting,thanks,filtered,pos_tag]
-    
+
+
+def translate(words):
+    acentos = ["padrão", "preço", "recomendações", "decoração",
+               "classificação", "estação", "médio", "pétala", "tranças",
+               "acrílico", "botão", "geométrico", "pendão", "caída",
+               "algodão", "único", "pólo", "império", "íntimo", "boémia",
+               "médio-alto", "verão", "laço", "coração", "botões",
+               "alças", "três", "lã", "poliéster", "sintético", "pérolas",
+               "sólido", "impressão", "calças", "calções"]
+    traducao = ["padrao", "preco", "recomendacoes", "decoracao",
+                "classificacao", "estacao", "medio", "petala", "trancas",
+                "acrilico", "botao", "geometrico", "pendao", "caida",
+                "algodao", "unico", "polo", "imperio", "intimo", "boemia",
+                "medio-alto", "verao", "laco", "coracao", "botoes",
+                "alcas", "tres", "la", "poliester", "sintetico", "perolas",
+                "solido", "impressao", "calcas", "calcoes"]
+    filtered = []
+
+    for word in words:
+        i = 0
+        for i in range(len(acentos)):
+            if word == acentos[i]:
+                filtered.append(traducao[i])
+                continue
+        filtered.append(word)
+
+    return filtered
+
 
 def preprocess_msg(msg,type_nlp):
-    
+
     if type_nlp:
-        
         return NLPyPort_transform(msg)
     else:
         return Spacy_NLP_transform(msg)
