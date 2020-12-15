@@ -4,7 +4,8 @@ Created on Mon Nov 30 01:20:50 2020
 
 @author: Eduardo Vicente and Isabel Carvalho
 """
-
+from wordspell_corrector import *
+from NLPyPort.FullPipeline import *
 import pandas as pd
 import string
 from nltk.corpus import stopwords
@@ -13,6 +14,11 @@ import spacy
 import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.corpus import floresta
+import joblib
+from nltk import word_tokenize
+
+question_words = ['que','quanto','quantos','cujo','cujos','quem','onde','quando','como','por','qual','quais','para','em']
+
 
 
 def find_greeting(words):
@@ -48,10 +54,11 @@ def find_thanks(words):
 def remove_noise(words):
     punctuation = string.punctuation
     white_space = string.whitespace
+    endoffile = 'EOS'
     filtered = []
 
     for w in words:
-        if w not in punctuation and w not in white_space:
+        if w is not endoffile and w not in punctuation and w not in white_space:
             filtered.append(w)
 
     return filtered
@@ -59,20 +66,22 @@ def remove_noise(words):
 
 def remove_stopwords(words):
     filtered = []
+    # print("STOP:\n")
+    # print(words)
     stop_words = set(stopwords.words('portuguese'))
 #    print(stop_words)
 
     for w in words:
-        if w not in stop_words:
+        # print(w+"\n")
+        if w.lower() not in question_words:
+            if w not in stop_words:
+                filtered.append(w)
+        else:
             filtered.append(w)
 
     return filtered
 
 
-def remove_all(words):
-    filtered = remove_noise(words)
-    filtered = remove_stopwords(words)
-    return filtered
 
 
 def part_of_speech(words,nlp):
@@ -116,10 +125,68 @@ def bag_of_words(words):
     # print(df)
 
     return df
-
-
-def preprocess_msg(msg):
+def autocorrect(tokens):
+    arr = []
+    print(tokens)
+    for t in tokens:
+        if t.isalpha() and t != "EOS":
+            arr.append(correction(t))
+    print(arr)
+    return arr
     
+def NLPyPort_transform(msg):
+    
+    options = {
+			"tokenizer" : True,
+			"pos_tagger" : True,
+			"lemmatizer" : True,
+			"entity_recognition" : True,
+			"np_chunking" : True,
+			"pre_load" : False,
+			"string_or_array" : True
+    }
+    text = new_full_pipe(msg,options=options)
+    dic_pos = dict()
+    tags = text.pos_tags
+    
+    
+    #SAVE POS_TAGS POSITIONS
+    for i in range(len(tags)):
+        dic_pos[text.lemas[i]] = tags[i]
+
+    
+    #PRINT PARAMETERS FROM TEXT:
+        
+    # if(text!=0):
+    #   print("TOKENS: "+ str(text.tokens)+" \n")
+    #   print("POS_TAG: "+ str(text.pos_tags)+" \n")
+    #   print("ENTITIES: "+ str(text.entities)+" \n")
+    #   print("NP_TAGS: "+ str(text.np_tags)+" \n")
+
+    filtered = autocorrect(text.tokens)
+    
+    #FIND GREETING WORDS ->
+    [greeting,idx_g] = find_greeting(filtered)
+   
+    #FIND THANKFULL WORDS ->
+    [thanks,idx_t] = find_thanks(filtered)
+    
+    filtered = text.lemas
+  
+    #REMOVE PONCTUATION NOISE and EOS
+    filtered = remove_noise(filtered)
+    #REMOVE STOPWORDS
+    filtered = remove_stopwords(filtered)
+    arr_tag = []
+    for i in range(len(filtered)):
+        if filtered[i] in list(dic_pos.keys()):
+            arr_tag.append(dic_pos[filtered[i]])
+ 
+    return [greeting,thanks,filtered,arr_tag]
+
+def Spacy_NLP_transform(msg):
+    
+      
     ##RETURN A TUPLE LIKE -> (greetings,thanks,[vector of tokens],[pos_tag],extra_info (target))
     nlp = spacy.load('C:\\Users\\Eduardo Vicente\\Anaconda3\\Lib\\site-packages\\pt_core_news_lg\\pt_core_news_lg-2.3.0')
 
@@ -154,6 +221,16 @@ def preprocess_msg(msg):
     # bagwords = bag_of_words(filtered)
         
     return [greeting,thanks,filtered,pos_tag]
+    
+
+def preprocess_msg(msg,type_nlp):
+    
+    if type_nlp:
+        
+        return NLPyPort_transform(msg)
+    else:
+        return Spacy_NLP_transform(msg)
+    # print(arr_tag)
 
 
 

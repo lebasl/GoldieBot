@@ -28,8 +28,8 @@ thanks = ['de nada', 'ora essa', 'o prazer foi todo meu', 'sem problema',
 
 
 def thread_NLP_handler(arg):
-     values = preprocess_msg(arg)
-     print(values)
+     values = preprocess_msg(arg[0],arg[1])
+     # print(values)
      greeting = values[0]
      th = values[1]
      
@@ -44,7 +44,7 @@ def thread_NLP_handler(arg):
      
 def thread_IR_handler(arg):
     
-    print(arg)
+    # print(arg)
     msg = detect(arg[0],arg[1])
     if(msg !=None):
         add_new_msg_chat(canvas,1, msg)
@@ -124,8 +124,8 @@ def add_new_msg_chat(canvas,who,content):
         bbox = canvas.bbox(txt)
         rect_item = canvas.create_rectangle(bbox,width=2, outline="#CDB720", fill="#F4EDBA")
         canvas.tag_raise(txt,rect_item)
-
-        inity = inity + 45
+        print(bbox)
+        inity = inity + (bbox[3]-bbox[1] +10)
 
         
     elif who==2:    
@@ -135,7 +135,7 @@ def add_new_msg_chat(canvas,who,content):
         bbox = canvas.bbox(txt)
         rect_item = canvas.create_rectangle(bbox,width=2, outline="#4DB823", fill="#AFF991")
         canvas.tag_raise(txt,rect_item)
-        inity = inity + 45
+        inity = inity + (bbox[3]-bbox[1]+10)
     
     canvas.update_idletasks()
     canvas.config(scrollregion=bbox)
@@ -155,9 +155,11 @@ def btn_handler():
     txt = inwin.get("1.0","end-1c")
     add_new_msg_chat(canvas,2, txt)
     inwin.delete(1.0,END)
-    
+    aux = []
+    aux.append(txt)
+    aux.append(0)
     #Handle NLP pre-procesing
-    thread = Thread(target=thread_NLP_handler,args=(txt,))
+    thread = Thread(target=thread_NLP_handler,args=(aux,))
     thread.start()
        
 
